@@ -252,7 +252,6 @@ content:
           </div>
 
 
-
   - title: "Experience"
     layout: list
     content:
@@ -266,7 +265,7 @@ content:
 
       - layout: left
         title: "㈜ 아크릴 (Acryl Inc.)"
-        sub_title: "AAAI연구소 주임연구원"
+        sub_title: "AAAI연구소, 주임연구원"
         caption: "2022.08 – 2023.12"
         link: "https://www.acryl.ai/"
         description: |
@@ -290,13 +289,70 @@ content:
         sub_title: "졸업"
         caption: "2011 – 2013"
 
+
+  - title: "Awards"
+    layout: list
+    content:
+      - layout: left
+        title: "월간 데이콘 음성 감정 인식 AI 경진대회 5등"
+        caption: "2023.07"
+      - layout: left
+        title: "한국통신학회 2021년도 하계종합학술발표회 우수논문상"
+        caption: "2021.11"
+
+
+  - title: "Certificates"
+    layout: list
+    content:
+      - layout: left
+        title: "정보처리기능사"
+        caption: "2017.12"
+        description: |
+          17652504881V  
+          한국산업인력공단
+      - layout: left
+        title: "자동차운전면허 2종 보통"
+        caption: "2017.08"
+        description: |
+          11-17-826665-80  
+          서울지방경찰청장
+
+
+  - title: "Publications"
+    layout: list
+    content:
+      - layout: left
+        title: "FMCW 레이더의 Range-Doppler spectrum에 기반한 합성곱-순환신경망 CFAR 설계"
+        caption: "2022.11"
+        description: |
+          2022년도 한국통신학회 추계종합학술발표회  
+          2저자
+      - layout: left
+        title: "다수 자율주행용 센서 기반 멀티모달 딥러닝을 통한 레이더 고스트 표적 탐지"
+        caption: "2022.02"
+        description: |
+          2022년도 한국통신학회 동계종합학술발표회  
+          2저자
+      - layout: left
+        title: "Construction of Error Correcting Output Codes for Robust Deep Neural Networks Based on Label Grouping Scheme"
+        caption: "2021.11"
+        description: |
+          2021 7th IEEE International Conference on Network Intelligence and Digital Content (IC-NIDC)  
+          3저자
+      - layout: left
+        title: "딥러닝 기반 CFAR 알고리즘의 오경보 확률 조절을 위한 손실함수 설계"
+        caption: "2021.06"
+        description: |
+          2021년도 한국통신학회 하계종합학술발표회  
+          주저자
+
+
   - title: "A Little More About Me"
     layout: text
     content: |
-      - 일본 여행과 지역 음식 탐방을 좋아합니다.  
-      - PyQt5 기반 툴 개발, Streamlit 데모 제작 등 개인 프로젝트를 즐깁니다.  
-      - Dinov2, YOLOv12, TensorRT, Jetson 최적화에 관심이 많습니다.  
-      - 업무 외에는 레트로 키보드 수집과 라멘/사케 취미를 갖고 있습니다.
+      - Travel (Japan / nearby)
+      - Food photography
+      - Gaming
 
 # Footer
 footer_show_references: false
