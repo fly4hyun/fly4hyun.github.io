@@ -359,11 +359,11 @@ content:
 
 
       - layout: top
-        title: "IEEE IC-NIDC 2021"
-        sub_title: "Construction of Error Correcting Output Codes for Robust Deep Neural Networks Based on Label Grouping Scheme"
+        title: "Construction of Error Correcting Output Codes for Robust Deep Neural Networks Based on Label Grouping Scheme"
+        sub_title: "Conference Paper · 3rd Author"
         quote: "2021.11"
         description: |
-          Conference Paper · 3rd Author
+          IEEE IC-NIDC 2021
 
 
       - layout: top
