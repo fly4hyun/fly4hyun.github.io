@@ -28,7 +28,7 @@ about_content: |
 
 content:
   - title: Projects
-    layout: centered-project
+    layout: list
     content:
       - layout: left
         title: 인형 이미지 검색 서비스 개발
