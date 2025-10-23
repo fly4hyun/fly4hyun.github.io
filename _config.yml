@@ -261,8 +261,8 @@ content:
         caption: "2024.02 – 2025.05"
         link: "https://www.lifelogm.co.kr/news.html"
         description: |
-          ● 비전/문서/멀티모달 AI 전반의 모델 설계·적용
-          ● 문서 QA 자동화, 이미지 검색, 실시간 영상분석 수행
+          ● 비전/문서/멀티모달 AI 전반의 모델 설계·적용<br>
+          ● 문서 QA 자동화, 이미지 검색, 실시간 영상분석 수행<br>
           ● Jetson Edge 환경 최적화 및 배포 파이프라인 정비
 
       - layout: left
@@ -271,14 +271,14 @@ content:
         caption: "2022.08 – 2023.12"
         link: "https://www.acryl.ai/"
         description: |
-          ● 멀티모달(영상·음성) 연구: Fusion/Segmentation/STT·TTS
-          ● 의료영상/감정분석/디지털휴먼 등 도메인 적용
+          ● 멀티모달(영상·음성) 연구: Fusion/Segmentation/STT·TTS<br>
+          ● 의료영상/감정분석/디지털휴먼 등 도메인 적용<br>
           ● 모델 고도화 및 서비스 연계 PoC 다수
 
   - title: "Education"
     layout: list
     content:
-      - layout: top-middle
+      - layout: top
         title: "한양대학교"
         sub_title: "석사 · 융합전자공학과"
         quote: "2020 – 2022"
@@ -287,28 +287,20 @@ content:
             학위논문: 딥러닝 기반 CFAR 알고리즘의 오경보 확률 조절을 위한 손실함수 설계
           </div>
 
-      - layout: top-middle
+      - layout: top-mdle
         title: "한양대학교"
         sub_title: "학사 · 융합전자공학부"
         quote: "2013 – 2020"
-        description: |
-          <div align="center" style="max-width:800px; margin:0 auto; text-align:center; font-size:18px; line-height:1.6;">
-            전공: 융합전자공학부
-          </div>
 
-      - layout: top-middle
+      - layout: top
         title: "세종과학고등학교"
         sub_title: "졸업"
         quote: "2011 – 2013"
-        description: |
-          <div align="center" style="max-width:800px; margin:0 auto; text-align:center; font-size:18px; line-height:1.6;">
-            과학고 조기이수(해당 시) 또는 일반 졸업
-          </div>
 
   - title: "Awards"
     layout: list
     content:
-      - layout: top-middle
+      - layout: top
         title: "데이콘 월간 음성 감정 인식 AI 경진대회"
         sub_title: "5위"
         quote: "2023.07"
@@ -317,7 +309,7 @@ content:
             주최: DACON
           </div>
 
-      - layout: top-middle
+      - layout: top
         title: "한국통신학회 하계종합학술발표회 (KICS)"
         sub_title: "우수논문상"
         quote: "2021.11"
@@ -345,7 +337,7 @@ content:
   - title: "Publications"
     layout: list
     content:
-      - layout: top-middle
+      - layout: top
         title: "한국통신학회 추계종합학술발표회 (KICS)"
         sub_title: "Conference Paper · 2저자"
         quote: "2022.11"
@@ -354,7 +346,7 @@ content:
             논문명: FMCW 레이더의 Range-Doppler spectrum에 기반한 합성곱-순환신경망 CFAR 설계
           </div>
 
-      - layout: top-middle
+      - layout: top
         title: "한국통신학회 동계종합학술발표회 (KICS)"
         sub_title: "Conference Paper · 2저자"
         quote: "2022.02"
@@ -363,7 +355,7 @@ content:
             논문명: 다수 자율주행용 센서 기반 멀티모달 딥러닝을 통한 레이더 고스트 표적 탐지
           </div>
 
-      - layout: top-middle
+      - layout: top
         title: "IEEE IC-NIDC 2021"
         sub_title: "Conference Paper · 3rd Author"
         quote: "2021.11"
@@ -372,7 +364,7 @@ content:
             Paper: Construction of Error Correcting Output Codes for Robust Deep Neural Networks Based on Label Grouping Scheme
           </div>
 
-      - layout: top-middle
+      - layout: top
         title: "한국통신학회 하계종합학술발표회 (KICS)"
         sub_title: "Conference Paper · 주저자"
         quote: "2021.06"
