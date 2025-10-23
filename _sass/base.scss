@@ -239,3 +239,9 @@ body {
     display: none !important;
   }
 }
+
+/* 프로젝트 제목/링크 중앙 정렬용 */
+div[align="center"] {
+  text-align: center !important;
+  margin-bottom: 10px;
+}
