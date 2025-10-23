@@ -261,9 +261,12 @@ content:
         caption: "2024.02 – 2025.05"
         link: "https://www.lifelogm.co.kr/news.html"
         description: |
-          ● 비전/문서/멀티모달 AI 전반의 모델 설계·적용<br>
-          ● 문서 QA 자동화, 이미지 검색, 실시간 영상분석 수행<br>
-          ● Jetson Edge 환경 최적화 및 배포 파이프라인 정비
+          Object Detection/Tracking, OCR, Layout Analysis, Image Retrieval 등 컴퓨터 비전 분야를 중심으로 AI 모델 설계 및 서비스 적용, 문서 QA 자동화, 이미지 검색, 실시간 영상분석, 엣지 디바이스 최적화 등 다양한 프로젝트를 진행
+          - 인형 이미지 검색 서비스 개발 (2024.03-2025.05)
+          - 제품 매뉴얼을 이용한 Device AI QA 자동화 시스템 구축 (2024.12-2025.04)
+          - AI 기반 하수관로 결함탐지 알고리즘 실용화 연구 용역 (2024.08-2024.11)
+          - 지능형 CCTV 기술 개발 (2024.04-2024.08)
+          - 실시간 날씨 및 여행 계획과 문서 검색 서비스 개발 (2024.02-2024.05)
 
       - layout: left
         title: "㈜ 아크릴 (Acryl Inc.)"
@@ -271,9 +274,14 @@ content:
         caption: "2022.08 – 2023.12"
         link: "https://www.acryl.ai/"
         description: |
-          ● 멀티모달(영상·음성) 연구: Fusion/Segmentation/STT·TTS<br>
-          ● 의료영상/감정분석/디지털휴먼 등 도메인 적용<br>
-          ● 모델 고도화 및 서비스 연계 PoC 다수
+          Multimodal Fusion, Segmentation, 3D Reconstruction, STT/TTS 등 멀티모달 및 의료영상 AI 분야를 연구하고 감정 분석, 의료 진단, 디지털 휴먼 플랫폼 등 다양한 도메인에 모델을 적용
+          - 화상 진단 솔루션 개발 (2023.08-2023.12)
+          - 보훈인물 AI 기반 디지털 휴먼 콘텐츠(플랫폼) 구축 (2023.08-2023.12)
+          - AI 정밀의료솔루션 (닥터앤서 2.0) 개발 (2023.08-2023.09)
+          - 통일부 2023 북한정보 인공지능빅데이터 분석모델 운영 및 유지보수 (2023.07-2023.07)
+          - 음성-텍스트-이미지 기반 멀티모달 감정 분류 모델 개발 (2023.01-2023.06)
+          - 단일 이미지 기반 사람 3D 체형 복원 모델 개발 (2022.09-2023.03)
+          - 이미지 기반 화상 심도 측정 모델 개발 (2022.08-2023.03)
 
   - title: "Education"
     layout: list
@@ -283,9 +291,8 @@ content:
         sub_title: "석사 · 융합전자공학과"
         quote: "2020 – 2022"
         description: |
-          <div align="center" style="max-width:800px; margin:0 auto; text-align:center; font-size:18px; line-height:1.6;">
-            학위논문: 딥러닝 기반 CFAR 알고리즘의 오경보 확률 조절을 위한 손실함수 설계
-          </div>
+          학위논문: 딥러닝 기반 CFAR 알고리즘의 오경보 확률 조절을 위한 손실함수 설계
+
 
       - layout: top-mdle
         title: "한양대학교"
@@ -305,18 +312,16 @@ content:
         sub_title: "5위"
         quote: "2023.07"
         description: |
-          <div align="center" style="max-width:800px; margin:0 auto; text-align:center; font-size:18px; line-height:1.6;">
-            주최: DACON
-          </div>
+          주최: DACON
+
 
       - layout: top
         title: "한국통신학회 하계종합학술발표회 (KICS)"
         sub_title: "우수논문상"
         quote: "2021.11"
         description: |
-          <div align="center" style="max-width:800px; margin:0 auto; text-align:center; font-size:18px; line-height:1.6;">
-            주최: 한국통신학회(KICS)
-          </div>
+          주최: 한국통신학회(KICS)
+
 
   - title: "Certificates"
     layout: list
@@ -338,40 +343,36 @@ content:
     layout: list
     content:
       - layout: top
-        title: "한국통신학회 추계종합학술발표회 (KICS)"
+        title: "FMCW 레이더의 Range-Doppler spectrum에 기반한 합성곱-순환신경망 CFAR 설계"
         sub_title: "Conference Paper · 2저자"
         quote: "2022.11"
         description: |
-          <div align="center" style="max-width:800px; margin:0 auto; text-align:center; font-size:18px; line-height:1.6;">
-            논문명: FMCW 레이더의 Range-Doppler spectrum에 기반한 합성곱-순환신경망 CFAR 설계
-          </div>
+          한국통신학회 추계종합학술발표회 (KICS)
+
 
       - layout: top
-        title: "한국통신학회 동계종합학술발표회 (KICS)"
+        title: "다수 자율주행용 센서 기반 멀티모달 딥러닝을 통한 레이더 고스트 표적 탐지"
         sub_title: "Conference Paper · 2저자"
         quote: "2022.02"
         description: |
-          <div align="center" style="max-width:800px; margin:0 auto; text-align:center; font-size:18px; line-height:1.6;">
-            논문명: 다수 자율주행용 센서 기반 멀티모달 딥러닝을 통한 레이더 고스트 표적 탐지
-          </div>
+          한국통신학회 동계종합학술발표회 (KICS)
+
 
       - layout: top
         title: "IEEE IC-NIDC 2021"
-        sub_title: "Conference Paper · 3rd Author"
+        sub_title: "Construction of Error Correcting Output Codes for Robust Deep Neural Networks Based on Label Grouping Scheme"
         quote: "2021.11"
         description: |
-          <div align="center" style="max-width:800px; margin:0 auto; text-align:center; font-size:18px; line-height:1.6;">
-            Paper: Construction of Error Correcting Output Codes for Robust Deep Neural Networks Based on Label Grouping Scheme
-          </div>
+          Conference Paper · 3rd Author
+
 
       - layout: top
-        title: "한국통신학회 하계종합학술발표회 (KICS)"
+        title: "딥러닝 기반 CFAR 알고리즘의 오경보 확률 조절을 위한 손실함수 설계"
         sub_title: "Conference Paper · 주저자"
         quote: "2021.06"
         description: |
-          <div align="center" style="max-width:800px; margin:0 auto; text-align:center; font-size:18px; line-height:1.6;">
-            논문명: 딥러닝 기반 CFAR 알고리즘의 오경보 확률 조절을 위한 손실함수 설계
-          </div>
+          한국통신학회 하계종합학술발표회 (KICS)
+
 
 
   - title: "A Little More About Me"
