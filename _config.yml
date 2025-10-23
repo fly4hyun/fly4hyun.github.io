@@ -27,7 +27,7 @@ about_content: |
   주요 분야: Object Detection · Document QA · Multimodal Learning · Model Optimization
 
 content:
-  - title: "Projects"
+  - title: "Key Projects"
     layout: list
     content:
       - layout: top-middle
@@ -102,14 +102,7 @@ content:
             - ‘체형예측시스템 및 체형예측시스템의 동작 방법’ 특허 출원 (출원번호: 10-2023-0024467)<br><br>
           </div>
 
-  - title: "──────────────────────────────"
-    layout: text
-    content: |
-      <div align="center" style="font-size:17px; font-weight:bold; color:#007acc; margin-top:30px;">
-        ▼ 추가 프로젝트 목록 ▼
-      </div>
-
-  - title: "Additional Projects"
+  - title: "More Projects"
     layout: list
     content:
       - layout: top-middle
