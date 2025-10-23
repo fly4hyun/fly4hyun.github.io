@@ -1,6 +1,35 @@
 <div class="container projects-container">
   <h3 id="{{ site.projects_title | slugify | default: 'projects'}}">{{ site.projects_title | default: "Projects" }}</h3>
+
   {% for project in site.data.projects %}
-    {% include {{ project.layout | default: 'left' | append: ".html" | prepend: "v1/" }} item=project %}
+  <div class="project-item" style="text-align:center; margin: 40px 0;">
+    <h3 style="margin-bottom: 10px;">
+      {% if project.link %}
+        <a href="{{ project.link }}" target="_blank" style="text-decoration:none; color:#007acc;">
+          {{ project.title }}
+        </a>
+      {% else %}
+        {{ project.title }}
+      {% endif %}
+    </h3>
+
+    {% if project.link_text %}
+      <p style="margin-top:-5px;">
+        <a href="{{ project.link }}" target="_blank" style="color:#007acc;">
+          {{ project.link_text }}
+        </a>
+      </p>
+    {% endif %}
+
+    {% if project.quote %}
+      <p style="font-style:italic; margin-top:10px;">{{ project.quote }}</p>
+    {% endif %}
+
+    {% if project.description %}
+      <div style="max-width: 700px; margin: 0 auto; text-align:center;">
+        {{ project.description | markdownify }}
+      </div>
+    {% endif %}
+  </div>
   {% endfor %}
 </div>
