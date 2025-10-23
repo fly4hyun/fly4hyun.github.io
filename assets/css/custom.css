@@ -1,12 +1,29 @@
+/* Projects 섹션 중앙정렬 강제 적용 */
 .item.left, .item.right, .item.center {
+  all: unset !important;
   display: block !important;
   text-align: center !important;
+  width: 100% !important;
   margin: 0 auto !important;
+  padding: 0 !important;
 }
 
-.item .title, .item .quote, .item .description, .item .additional-links {
-  width: 100% !important;
-  text-align: center !important;
-  margin: 0 auto !important;
+/* 내부 텍스트 전부 중앙정렬 */
+.item .title,
+.item .quote,
+.item .description,
+.item .additional-links {
+  all: unset !important;
   display: block !important;
+  text-align: center !important;
+  width: 100% !important;
+  margin: 0 auto 8px auto !important;
+  font-size: inherit !important;
+  color: inherit !important;
+}
+
+/* 링크 컬러 */
+.item .title a, .item .additional-links a {
+  color: #007acc !important;
+  text-decoration: none !important;
 }
