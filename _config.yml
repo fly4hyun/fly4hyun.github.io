@@ -20,22 +20,17 @@ linkedin_username: 현희-이-612511290
 # About Section
 about_profile_image: images/profile.jpg
 about_content: |
-  Vision AI 및 Multimodal Research Engineer로서 딥러닝 기반 영상 인식, 문서 분석, 멀티모달 학습 및 Edge Device 최적화까지
-  산업 현장에서 직접 사용되는 AI 시스템을 설계하고 개발했습니다.
-  Jetson, PyTorch, TensorRT, Dinov2, FAISS 등 실무 중심의 AI 개발 환경에 능숙합니다.
+  Applied AI Research Engineer로서 Vision, Document, Multimodal 분야의 AI 시스템을 연구·개발해왔습니다.  
+  실제 서비스에 적용 가능한 모델 설계와 데이터 파이프라인 구축에 강점을 가지고 있으며,  
+  PyTorch, TensorRT, Dinov2, FAISS 등을 활용한 효율적인 비전·문서 AI 개발 경험을 보유하고 있습니다.
 
-  주요 키워드:
-
-  Document QA Automation / Object Detection / Layout Analysis  
-  Multimodal Emotion & Medical AI / Segmentation / 3D Reconstruction  
-  Jetson Edge Deployment / TensorRT Optimization / PyQt5 GUI  
-  YOLOv12, Dinov2, FAISS, Whisper, SAM, VITS2, Wav2Vec2
+  주요 분야: Object Detection · Document QA · Multimodal Learning · Model Optimization
 
 content:
   - title: Projects
     layout: list
     content:
-      - layout: left
+      - layout: list
         title: 인형 이미지 검색 서비스 개발
         link: https://github.com/fly4hyun/doll-image-search
         link_text: github.com/fly4hyun/doll-image-search
