@@ -30,7 +30,7 @@ content:
   - title: "Projects"
     layout: list
     content:
-      - layout: left
+      - layout: top
         title: "인형 이미지 검색 서비스 개발"
         link: "https://github.com/fly4hyun/doll-image-search"
         link_text: "github.com/fly4hyun/doll-image-search"
