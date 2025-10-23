@@ -44,7 +44,7 @@ content:
           - Dinov2 + FAISS 기반 이미지 검색 알고리즘 구현  
           - PyQt5 라벨링 툴 및 Streamlit 데모 UI 개발  
 
-      - layout: left
+      - layout: top-middle
         title: "제품 매뉴얼 기반 Device AI QA 자동화 시스템"
         link: "https://github.com/fly4hyun/bixby_dqa_pdf_automation"
         link_text: "github.com/fly4hyun/bixby_dqa_pdf_automation"
@@ -59,7 +59,7 @@ content:
           - 12개 레이아웃 클래스 정의 및 순서 정렬 알고리즘 구현  
           - QA 자동 생성 알고리즘으로 데이터 구축 효율 6배 향상  
 
-      - layout: left
+      - layout: top-middle
         title: "하수관로 결함탐지 시스템"
         link_text: "Seoul Digital Foundation"
         quote: "YOLOv12 + BoT-SORT 기반 결함 탐지 및 OCR 메타정보 추출"
@@ -68,7 +68,7 @@ content:
           - 대표 결함 6종 F1-score 0.90, 기타 결함 9종 0.85 달성  
           - EasyOCR 기반 텍스트 인식 후 메타정보 자동 추출  
 
-      - layout: left
+      - layout: top-middle
         title: "지능형 CCTV 알고리즘 개발"
         quote: "Jetson 기반 배회·침입 감지 및 낙상 감지 AI 시스템"
         description: |
@@ -76,7 +76,7 @@ content:
           - YOLOv12 객체 탐지, TensorRT 최적화로 30–40 FPS 구현  
           - KISA 지능형 CCTV 인증 통과  
 
-      - layout: left
+      - layout: top-middle
         title: "실시간 날씨/여행 챗봇 및 문서 검색 서비스"
         quote: "기상청 API 기반 여행 일정 추천 및 FAISS 문서 검색"
         description: |
