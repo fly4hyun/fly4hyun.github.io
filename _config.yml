@@ -257,49 +257,55 @@ content:
     content:
       - layout: left
         title: "OKESTRO AGI(주)"
-        sub_title: "AGI팀, Vision Part, 파트장, 선임연구원"
+        sub_title: "AGI팀 · Vision Part · 파트장(선임연구원)"
         caption: "2024.02 – 2025.05"
         link: "https://www.lifelogm.co.kr/news.html"
         description: |
-          ● Object Detection/Tracking, OCR, Layout Analysis, Image Retrieval 등 컴퓨터 비전 분야를 중심으로 AI 모델 설계 및 서비스 적용, 문서 QA 자동화, 이미지 검색, 실시간 영상분석, 엣지 디바이스 최적화 등 다양한 프로젝트를 진행 
+          ● 비전/문서/멀티모달 AI 전반의 모델 설계·적용
+          ● 문서 QA 자동화, 이미지 검색, 실시간 영상분석 수행
+          ● Jetson Edge 환경 최적화 및 배포 파이프라인 정비
 
       - layout: left
         title: "㈜ 아크릴 (Acryl Inc.)"
-        sub_title: "AAAI연구소, 주임연구원"
+        sub_title: "AAAI연구소 · 주임연구원"
         caption: "2022.08 – 2023.12"
         link: "https://www.acryl.ai/"
         description: |
-          ● Multimodal Fusion, Segmentation, 3D Reconstruction, STT/TTS 등 멀티모달 및 의료영상 AI 분야를 연구하고 감정 분석, 의료 진단, 디지털 휴먼 플랫폼 등 다양한 도메인에 모델을 적용
-
+          ● 멀티모달(영상·음성) 연구: Fusion/Segmentation/STT·TTS
+          ● 의료영상/감정분석/디지털휴먼 등 도메인 적용
+          ● 모델 고도화 및 서비스 연계 PoC 다수
 
   - title: "Education"
     layout: list
     content:
       - layout: left
         title: "한양대학교"
-        sub_title: "석사, 융합전자공학과"
+        sub_title: "석사 · 융합전자공학과"
         caption: "2020 – 2022"
-        quote: "논문: 딥러닝 기반 CFAR 알고리즘의 오경보 확률 조절을 위한 손실함수 설계"
+        description: |
+          ● 학위논문: 딥러닝 기반 CFAR 알고리즘의 오경보 확률 조절을 위한 손실함수 설계
       - layout: left
         title: "한양대학교"
-        sub_title: "학사, 융합전자공학부"
+        sub_title: "학사 · 융합전자공학부"
         caption: "2013 – 2020"
       - layout: left
         title: "세종과학고등학교"
         sub_title: "졸업"
         caption: "2011 – 2013"
 
-
   - title: "Awards"
     layout: list
     content:
       - layout: left
-        title: "월간 데이콘 음성 감정 인식 AI 경진대회 5등"
+        title: "데이콘 월간 음성 감정 인식 AI 경진대회 5위"
         caption: "2023.07"
+        description: |
+          주최: Dacon
       - layout: left
-        title: "한국통신학회 2021년도 하계종합학술발표회 우수논문상"
+        title: "한국통신학회 하계종합학술발표회 우수논문상"
         caption: "2021.11"
-
+        description: |
+          주최: 한국통신학회(KICS)
 
   - title: "Certificates"
     layout: list
@@ -308,43 +314,46 @@ content:
         title: "정보처리기능사"
         caption: "2017.12"
         description: |
-          17652504881V  
-          한국산업인력공단
+          발급: 한국산업인력공단
+          자격번호: 17652504881V
       - layout: left
         title: "자동차운전면허 2종 보통"
         caption: "2017.08"
         description: |
-          11-17-826665-80  
-          서울지방경찰청장
-
+          발급: 서울지방경찰청
+          면허번호: 11-17-826665-80
 
   - title: "Publications"
     layout: list
     content:
       - layout: left
-        title: "FMCW 레이더의 Range-Doppler spectrum에 기반한 합성곱-순환신경망 CFAR 설계"
+        title: "한국통신학회 추계종합학술발표회 (KICS)"
+        sub_title: "Conference Paper"
         caption: "2022.11"
         description: |
-          2022년도 한국통신학회 추계종합학술발표회  
-          2저자
+          논문명: FMCW 레이더의 Range-Doppler spectrum에 기반한 합성곱-순환신경망 CFAR 설계
+          저자순위: 2저자
       - layout: left
-        title: "다수 자율주행용 센서 기반 멀티모달 딥러닝을 통한 레이더 고스트 표적 탐지"
+        title: "한국통신학회 동계종합학술발표회 (KICS)"
+        sub_title: "Conference Paper"
         caption: "2022.02"
         description: |
-          2022년도 한국통신학회 동계종합학술발표회  
-          2저자
+          논문명: 다수 자율주행용 센서 기반 멀티모달 딥러닝을 통한 레이더 고스트 표적 탐지
+          저자순위: 2저자
       - layout: left
-        title: "Construction of Error Correcting Output Codes for Robust Deep Neural Networks Based on Label Grouping Scheme"
+        title: "IEEE IC-NIDC 2021"
+        sub_title: "Conference Paper"
         caption: "2021.11"
         description: |
-          2021 7th IEEE International Conference on Network Intelligence and Digital Content (IC-NIDC)  
-          3저자
+          Paper: Construction of Error Correcting Output Codes for Robust Deep Neural Networks Based on Label Grouping Scheme
+          Authorship: 3rd author
       - layout: left
-        title: "딥러닝 기반 CFAR 알고리즘의 오경보 확률 조절을 위한 손실함수 설계"
+        title: "한국통신학회 하계종합학술발표회 (KICS)"
+        sub_title: "Conference Paper"
         caption: "2021.06"
         description: |
-          2021년도 한국통신학회 하계종합학술발표회  
-          주저자
+          논문명: 딥러닝 기반 CFAR 알고리즘의 오경보 확률 조절을 위한 손실함수 설계
+          저자순위: 주저자
 
 
   - title: "A Little More About Me"
