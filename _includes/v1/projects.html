@@ -1,6 +1,35 @@
 <div class="container projects-container">
-  <h3 id="{{ site.projects_title | slugify | default: 'projects'}}">{{ site.projects_title | default: "Projects" }}</h3>
-  {% for project in site.data.projects %}
-    {% include {{ project.layout | default: 'left' | append: ".html" | prepend: "v1/" }} item=project %}
+  <h3 id="{{ site.projects_title | slugify | default: 'projects'}}">
+    {{ site.projects_title | default: "Projects" }}
+  </h3>
+
+  {% for item in include.content %}
+    <div class="project-item" style="text-align: center; margin-bottom: 30px;">
+      <p style="margin: 0;">
+        <b>
+          <a href="{{ item.link }}" target="_blank" style="text-decoration: none; color: inherit;">
+            {{ item.title }}
+          </a>
+        </b>
+      </p>
+      {% if item.link_text %}
+        <p style="margin: 4px 0; font-style: italic;">{{ item.link_text }}</p>
+      {% endif %}
+      {% if item.quote %}
+        <p style="margin: 8px 0;">{{ item.quote }}</p>
+      {% endif %}
+      {% if item.description %}
+        <p style="margin-top: 10px;">{{ item.description | strip | markdownify }}</p>
+      {% endif %}
+      {% if item.additional_links %}
+        <p>
+          {% for link in item.additional_links %}
+            <a href="{{ link.url }}" target="_blank">
+              <i class="{{ link.icon }}"></i>
+            </a>
+          {% endfor %}
+        </p>
+      {% endif %}
+    </div>
   {% endfor %}
 </div>

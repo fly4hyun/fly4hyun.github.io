@@ -1,8 +1,8 @@
 {% for item in include.content %}
-  <div class="row clearfix layout border-{{item.border | default: 'no'}}">
-    <div class="col-xs-12 col-sm-12 col-md-12 col-print-12 content">
+  <div class="row clearfix layout border-{{item.border | default: 'no'}}" style="display: block;">
+    <div class="col-xs-12 col-sm-12 col-md-12 col-print-12 content" style="width: 100%;">
 
-      <!-- 🔹 제목 + 링크 (왼쪽 내용을 통합) -->
+      <!-- 제목 및 링크 -->
       <h4 id="{{ item.title | slugify }}" style="margin-bottom: 0.3rem;">
         {% if item.link %}
           <a href="{{ item.link }}" target="_blank" style="color: inherit; text-decoration: none;">
@@ -13,34 +13,22 @@
         {% endif %}
       </h4>
 
-      <!-- 🔹 링크 텍스트 -->
       {% if item.link_text %}
         <p style="font-style: italic; font-size: 0.9rem; margin-top: -0.3rem;">
           {{ item.link_text }}
         </p>
       {% endif %}
 
-      <!-- 🔹 부제목, 기간, 캡션 등 왼쪽 요소 -->
-      {% if item.sub_title %}
-        <p><b>{{ item.sub_title }}</b></p>
-      {% endif %}
-      {% if item.caption %}
-        <p>{{ item.caption }}</p>
-      {% endif %}
-
-      <!-- 🔹 Quote -->
       {% if item.quote %}
         <p class="quote">{{ item.quote }}</p>
       {% endif %}
 
-      <!-- 🔹 Description -->
       {{ item.description | strip | markdownify }}
 
-      <!-- 🔹 추가 링크 (GitHub 아이콘 등) -->
       {% if item.additional_links %}
         <p style="margin-top: 0.3rem;">
           {% for link in item.additional_links %}
-            {% include a.html href=link.url class="" %}
+            <a href="{{ link.url }}" target="_blank">
               <i class="{{ link.icon }}" title="{{ link.title | escape }}"></i>
             </a>
           {% endfor %}
