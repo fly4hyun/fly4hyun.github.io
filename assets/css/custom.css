@@ -1,12 +1,18 @@
-/* Project 항목들을 좌우 분할 없이 중앙정렬 */
-.item.left, .item.right {
+/* Projects 섹션 좌우 분리 제거 + 중앙정렬 강제 */
+.item.left, .item.right, .item.center {
   display: block !important;
   text-align: center !important;
+  margin: 0 auto !important;
 }
 
 .item .title, .item .quote, .item .description, .item .additional-links {
-  text-align: center !important;
   width: 100% !important;
+  text-align: center !important;
   margin: 0 auto !important;
   display: block !important;
+}
+
+.item .title a, .item .additional-links a {
+  color: #007acc !important;
+  text-decoration: none !important;
 }

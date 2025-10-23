@@ -156,5 +156,9 @@ sass:
 plugins:
  - jekyll-seo-tag
 
-include:
-  - assets/css/custom.css
+# ✅ 이 부분을 include가 아니라 "defaults"로 변경
+defaults:
+  - scope:
+      path: ""
+    values:
+      css: assets/css/custom.css
