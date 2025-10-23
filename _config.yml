@@ -258,33 +258,20 @@ content:
     content:
       - layout: left
         title: "OKESTRO AGI(주)"
-        sub_title: "Vision Part Lead / 선임연구원"
-        caption: "2024.02 – 2025.06"
-        link: "https://okestro.com"
-        quote: "Vision AI 및 Multimodal R&D 프로젝트 총괄"
+        sub_title: "AGI팀, Vision Part, 파트장, 선임연구원"
+        caption: "2024.02 – 2025.05"
+        link: "https://www.lifelogm.co.kr/news.html"
         description: |
-          - 삼성전자 Bixby QA 자동화, 하수관로 결함탐지, 지능형 CCTV 등 주도  
-          - Jetson Edge AI 최적화 및 PyQt5 라벨링 툴 개발  
+          ● Object Detection/Tracking, OCR, Layout Analysis, Image Retrieval 등 컴퓨터 비전 분야를 중심으로 AI 모델 설계 및 서비스 적용, 문서 QA 자동화, 이미지 검색, 실시간 영상분석, 엣지 디바이스 최적화 등 다양한 프로젝트를 진행 
 
       - layout: left
         title: "㈜ 아크릴 (Acryl Inc.)"
         sub_title: "AAAI연구소 주임연구원"
         caption: "2022.08 – 2023.12"
-        link: "https://acryl.ai"
-        quote: "Multimodal / 의료영상 AI 연구개발"
+        link: "https://www.acryl.ai/"
         description: |
-          - 화상 Segmentation, Digital Human, Emotion Classification 연구  
-          - Whisper + VITS2 기반 음성·TTS 모델 설계  
-          - Doctor Answer 2.0 참여 (전립선 초음파 진단 보조모델)
+          ● Multimodal Fusion, Segmentation, 3D Reconstruction, STT/TTS 등 멀티모달 및 의료영상 AI 분야를 연구하고 감정 분석, 의료 진단, 디지털 휴먼 플랫폼 등 다양한 도메인에 모델을 적용
 
-      - layout: left
-        title: "한양대학교 부호 및 통신 연구실"
-        sub_title: "석사 연구원"
-        caption: "2019.07 – 2022.02"
-        quote: "딥러닝 기반 CFAR 알고리즘 및 멀티모달 탐지 연구"
-        description: |
-          - Radar Ghost Target Detection / CFAR Loss 연구  
-          - nuScenes 멀티모달 학습 파이프라인 구축  
 
   - title: "Education"
     layout: list
