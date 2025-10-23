@@ -27,6 +27,7 @@ about_content: |
   주요 분야: Object Detection · Document QA · Multimodal Learning · Model Optimization
 
 content:
+content:
   - title: "Projects"
     layout: list
     content:
@@ -62,7 +63,7 @@ content:
             하수관로 내 결함 탐지 및 추적 모델을 개발하여 현장 실무 적용이 가능한 시각화 서비스 제공<br>
             - 사업 수행총괄<br>
             - 대표 결함 6종, 기타 결함 9종 데이터 인수 및 검증/평가 데이터 선별<br>
-            - 대표 결함 F1-score 0.90, 기타 결함 0.85 달성<br>
+            - 대표 결함 6종 F1-score 0.90, 기타 결함 0.85 달성<br>
             - BoT-SORT 기반 객체 추적, EasyOCR + 후처리로 하수관 메타정보 추출 알고리즘 개발<br><br>
           </div>
 
@@ -126,6 +127,22 @@ content:
           </div>
 
       - layout: top-middle
+        title: "실시간 날씨 및 여행 계획과 문서 검색 서비스 개발"
+        link: "https://github.com/fly4hyun/weather-travel-bot"
+        link_text: "github.com/fly4hyun/weather-travel-bot"
+        additional_links:
+          - title: "GitHub"
+            icon: "fab fa-github"
+            url: "https://github.com/fly4hyun/weather-travel-bot"
+        quote: "2024.02-2024.05"
+        description: |
+          <div align="center" style="max-width:800px; margin:0 auto; text-align:center; font-size:18px; line-height:1.6;">
+            실시간 날씨 기반 여행 일정 추천 챗봇과 할루시네이션 저감형 문서 검색 서비스 개발<br>
+            - 기상청 API 기반 날씨 추출 및 일정 추천 알고리즘<br>
+            - FAISS 기반 문서 벡터화 및 그래프 기반 신뢰도 시각화 구현<br><br>
+          </div>
+
+      - layout: top-middle
         title: "화상 진단 솔루션 개발"
         link: "https://github.com/fly4hyun/burn-segmentation"
         link_text: "github.com/fly4hyun/burn-segmentation"
@@ -137,7 +154,7 @@ content:
         description: |
           <div align="center" style="max-width:800px; margin:0 auto; text-align:center; font-size:18px; line-height:1.6;">
             화상 심도 분석을 보조하는 Segmentation 모델 개발<br>
-            - Active Learning을 활용한 화상 Segmentation 데이터셋 구축<br>
+            - Active Learning을 활용한 데이터셋 구축<br>
             - SAM 기반 화상 Segmentation 모델 개발<br><br>
           </div>
 
@@ -152,10 +169,9 @@ content:
         quote: "2023.08-2023.12"
         description: |
           <div align="center" style="max-width:800px; margin:0 auto; text-align:center; font-size:18px; line-height:1.6;">
-            역사적 인물을 디지털로 복원하여 기념관 방문객과 상호작용 가능한 AI 디지털 휴먼 플랫폼 개발<br>
-            - 이미지와 LiDAR 기반 사람 인식 모델 및 API 개발<br>
-            - Whisper 모델 Prompt 최적화 및 대화 감지 알고리즘 구현<br>
-            - VITS2 + MB-iSTFT 기반 TTS 모델 개발<br><br>
+            역사 인물 복원을 위한 디지털 휴먼 플랫폼 개발<br>
+            - 이미지+LiDAR 기반 사람 인식 API<br>
+            - Whisper + VITS2 기반 STT/TTS 대화 감지 및 합성 구현<br><br>
           </div>
 
       - layout: top-middle
@@ -170,7 +186,125 @@ content:
         description: |
           <div align="center" style="max-width:800px; margin:0 auto; text-align:center; font-size:18px; line-height:1.6;">
             전립선 초음파 기반 전립선증식증 진단 보조 SW 개발<br>
-            - SAM 기반 전립선 초음파 Segmentation 모델 개발<br>
-            - 초음파영상 분류 모델 개발 (ResNet, EfficientNet, ViT)<br>
-            - CRF 및 영상 데이터 결합 멀티모달 모델 구현<br><br>
+            - SAM 기반 Segmentation + ViT 기반 분류 모델<br>
+            - CRF 결합 멀티모달 모델 구현<br><br>
           </div>
+
+      - layout: top-middle
+        title: "통일부 2023 북한정보 인공지능빅데이터 분석모델 운영 및 유지보수"
+        link: "https://github.com/fly4hyun/mou-north-ai"
+        link_text: "github.com/fly4hyun/mou-north-ai"
+        additional_links:
+          - title: "GitHub"
+            icon: "fab fa-github"
+            url: "https://github.com/fly4hyun/mou-north-ai"
+        quote: "2023.07-2023.07"
+        description: |
+          <div align="center" style="max-width:800px; margin:0 auto; text-align:center; font-size:18px; line-height:1.6;">
+            통일부 북한정보 분석모델의 성능 평가 및 개선 방향 제시<br>
+            - 기존 분석모델 성능 검증 및 개선 보고서 작성<br><br>
+          </div>
+
+      - layout: top-middle
+        title: "음성-텍스트-이미지 기반 멀티모달 감정 분류 모델 개발"
+        link: "https://github.com/fly4hyun/multimodal-emotion"
+        link_text: "github.com/fly4hyun/multimodal-emotion"
+        additional_links:
+          - title: "GitHub"
+            icon: "fab fa-github"
+            url: "https://github.com/fly4hyun/multimodal-emotion"
+        quote: "2023.01-2023.06"
+        description: |
+          <div align="center" style="max-width:800px; margin:0 auto; text-align:center; font-size:18px; line-height:1.6;">
+            자사 멀티모달 감정 분류 모델 성능 개선 및 플랫폼 서비스 배포<br>
+            - Wav2Vec2 기반 음성 감정 + MFB 기반 멀티모달 알고리즘 구현<br>
+            - AIHub 음성 데이터 6종 추가 및 7개 감정 재정의 데이터셋 구축<br><br>
+          </div>
+
+      - layout: top-middle
+        title: "이미지 기반 화상 심도 측정 모델 개발"
+        link: "https://github.com/fly4hyun/burn-depth"
+        link_text: "github.com/fly4hyun/burn-depth"
+        additional_links:
+          - title: "GitHub"
+            icon: "fab fa-github"
+            url: "https://github.com/fly4hyun/burn-depth"
+        quote: "2022.08-2023.03"
+        description: |
+          <div align="center" style="max-width:800px; margin:0 auto; text-align:center; font-size:18px; line-height:1.6;">
+            화상 환부 이미지를 기반으로 심도 (정상~3도) 분류 모델 연구<br>
+            - Swin Transformer 기반 분류 모델<br>
+            - 최종 F1-score 0.90 달성, Skinex 의료기기 탑재<br><br>
+          </div>
+
+
+  - title: "Experience"
+    layout: list
+    content:
+      - layout: left
+        title: "OKESTRO AGI(주)"
+        sub_title: "Vision Part Lead / 선임연구원"
+        caption: "2024.02 – 2025.06"
+        link: "https://okestro.com"
+        quote: "Vision AI 및 Multimodal R&D 프로젝트 총괄"
+        description: |
+          - 삼성전자 Bixby QA 자동화, 하수관로 결함탐지, 지능형 CCTV 등 주도  
+          - Jetson Edge AI 최적화 및 PyQt5 라벨링 툴 개발  
+
+      - layout: left
+        title: "㈜ 아크릴 (Acryl Inc.)"
+        sub_title: "AAAI연구소 주임연구원"
+        caption: "2022.08 – 2023.12"
+        link: "https://acryl.ai"
+        quote: "Multimodal / 의료영상 AI 연구개발"
+        description: |
+          - 화상 Segmentation, Digital Human, Emotion Classification 연구  
+          - Whisper + VITS2 기반 음성·TTS 모델 설계  
+          - Doctor Answer 2.0 참여 (전립선 초음파 진단 보조모델)
+
+      - layout: left
+        title: "한양대학교 부호 및 통신 연구실"
+        sub_title: "석사 연구원"
+        caption: "2019.07 – 2022.02"
+        quote: "딥러닝 기반 CFAR 알고리즘 및 멀티모달 탐지 연구"
+        description: |
+          - Radar Ghost Target Detection / CFAR Loss 연구  
+          - nuScenes 멀티모달 학습 파이프라인 구축  
+
+  - title: "Education"
+    layout: list
+    content:
+      - layout: left
+        title: "한양대학교"
+        sub_title: "석사, 융합전자공학과"
+        caption: "2020 – 2022"
+        quote: "논문: 딥러닝 기반 CFAR 알고리즘의 오경보 확률 조절을 위한 손실함수 설계"
+      - layout: left
+        title: "한양대학교"
+        sub_title: "학사, 융합전자공학부"
+        caption: "2013 – 2020"
+      - layout: left
+        title: "세종과학고등학교"
+        sub_title: "졸업"
+        caption: "2011 – 2013"
+
+  - title: "A Little More About Me"
+    layout: text
+    content: |
+      - 일본 여행과 지역 음식 탐방을 좋아합니다.  
+      - PyQt5 기반 툴 개발, Streamlit 데모 제작 등 개인 프로젝트를 즐깁니다.  
+      - Dinov2, YOLOv12, TensorRT, Jetson 최적화에 관심이 많습니다.  
+      - 업무 외에는 레트로 키보드 수집과 라멘/사케 취미를 갖고 있습니다.
+
+# Footer
+footer_show_references: false
+
+# Build settings
+remote_theme: "sproogen/modern-resume-theme"
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+  - jekyll-seo-tag
