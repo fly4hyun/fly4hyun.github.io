@@ -61,133 +61,142 @@ about_content: | # this will include new lines to allow paragraphs
     - Images ![alt text](/images/landscape-trees.jpg "Trees")
 
 content:
-  - title: Projects # Title for the section
+  - title: Projects
     layout: list
     content:
-      - layout: left
-        border: weak
+      - layout: center
         title: 인형 이미지 검색 서비스 개발
-        link_text: Dream International PoC
+        link: https://github.com/fly4hyun/doll-image-search
+        link_text: github.com/fly4hyun/doll-image-search
+        additional_links:
+          - title: GitHub
+            icon: fab fa-github
+            url: https://github.com/fly4hyun/doll-image-search
         quote: >
           Dinov2 + FAISS 기반 이미지 검색 및 PyQt5 라벨링 툴 구축
         description: |
-          인형 디자인 및 도안 제작 편의성을 위한 이미지 검색 시스템 개발  
-          - Dinov2 + FAISS 기반 이미지 검색 알고리즘 설계  
-          - 인형 DB 구축 및 라벨링 툴(PyQt5) 개발  
-          - Streamlit 기반 이미지 검색 데모 서비스 구현
+          Developed an image search system for doll design and part management.  
+          - Built an end-to-end image retrieval pipeline using **Dinov2 + FAISS**  
+          - Designed a **PyQt5 labeling tool** for category annotation  
+          - Deployed a **Streamlit-based demo UI** for interactive search  
 
-      - layout: left
-        border: weak
-        title: 제품 매뉴얼 기반 Device AI QA 자동화 시스템 구축
-        link_text: Samsung Bixby DQA Project
+      - layout: center
+        title: Device AI QA Automation for Samsung Bixby
+        link: https://github.com/fly4hyun/bixby_dqa_pdf_automation
+        link_text: github.com/fly4hyun/bixby_dqa_pdf_automation
+        additional_links:
+          - title: GitHub
+            icon: fab fa-github
+            url: https://github.com/fly4hyun/bixby_dqa_pdf_automation
         quote: >
           PDF 문서 분석을 통한 QA 데이터 자동 생성 및 빅스비 DB 구축
         description: |
-          삼성전자 제품 설명서 PDF를 기반으로 QA 데이터를 자동 생성 및 정리하는 AI 프로세스 개발  
-          - YOLOv12x 기반 PDF 레이아웃 검출 모델 학습  
-          - 12개 레이아웃 클래스(제목, 표, 이미지 등) 정의  
-          - 레이아웃 순서 정렬 알고리즘 및 QA 생성 알고리즘 설계  
-          - DQA DB 자동화율 90% 이상 달성  
+          Automated QA dataset generation from Samsung device manuals (PDF).  
+          - **YOLOv12x**-based layout detection model for structured parsing  
+          - 12 document layout classes with sequence ordering algorithm  
+          - Automated QA pair generation and validation pipeline  
 
-      - layout: left
-        border: weak
-        title: 하수관로 결함탐지 알고리즘 실용화 연구
-        link_text: Seoul Digital Foundation
+      - layout: center
+        title: Sewer Pipe Defect Detection System
+        link_text: Seoul Digital Foundation Project
         quote: >
           YOLOv12 + BoT-SORT 기반 결함 탐지 및 OCR 메타정보 추출
         description: |
-          하수관 내 Crack, Deposit, Joint 등 15종 결함 자동 탐지 및 추적 시스템 개발  
-          - 서울디지털재단 성능 요구치 달성 (대표 결함 6종 F1-score 0.90)  
-          - BoT-SORT 기반 객체 추적 및 EasyOCR 후처리  
-          - 결함별 시각화 UI 및 실시간 분석 리포트 제작  
+          Developed AI model for sewer defect detection and visualization.  
+          - 15-class defect detection using **YOLOv12 + BoT-SORT**  
+          - Text extraction with **EasyOCR** and metadata post-processing  
+          - Achieved **F1-score 0.90** for major defect classes  
 
-      - layout: left
-        border: weak
-        title: 지능형 CCTV 알고리즘 개발
-        link_text: PeopleCounting / Fall Detection
+      - layout: center
+        title: Intelligent CCTV for Edge Deployment
         quote: >
-          Jetson Edge AI 기반 배회·침입 감지 및 낙상 탐지 알고리즘
+          Jetson Orin NX 기반 배회·침입 탐지 및 낙상 감지 시스템
         description: |
-          자사 제품용 지능형 CCTV AI 알고리즘 개발  
-          - YOLOv12 기반 객체 탐지 및 영역별 인원 카운팅  
-          - 배회·침입 알고리즘 KISA 성능 시험 인증 통과  
-          - TensorRT 최적화로 Jetson Orin NX 환경 30~40FPS 구현  
+          Designed real-time video analytics system on **NVIDIA Jetson Orin NX**.  
+          - People counting, fall detection, and intrusion tracking  
+          - TensorRT optimization achieving **30–40 FPS** edge inference  
+          - Passed **KISA AI CCTV certification** for behavior detection  
 
-      - layout: left
-        border: weak
-        title: 실시간 날씨 및 여행 계획 챗봇 / 문서 검색 서비스
-        link_text: AI EXPO KOREA 2024
+      - layout: center
+        title: Real-time Weather & Travel Planner Chatbot
         quote: >
-          기상청 API 기반 여행 일정 추천 및 Hallucination 저감 문서 검색
+          기상청 API 기반 여행 일정 추천 및 문서 검색 서비스
         description: |
-          실시간 날씨 기반 여행 일정 추천 챗봇과 문서 검색 서비스 개발  
-          - 질문에서 기간·위치 추출 후 기상청 API 호출  
-          - FAISS 기반 문서 검색 및 근거 시각화 기능 구현  
-          - AI EXPO KOREA 2024 전시 시연  
+          Built multimodal chatbot integrating weather data and document retrieval.  
+          - Extracted location & time from questions, used KMA API for forecast  
+          - Built **FAISS**-based document search with hallucination control  
+          - Showcased at **AI EXPO KOREA 2024**
 
-      - layout: left
-        border: weak
-        title: 화상 진단 솔루션 개발
-        link_text: AAAI 연구소, ㈜아크릴
+  - title: Experience
+    layout: list
+    content:
+      - layout: center
+        title: OKESTRO AGI
+        sub_title: Vision Part Lead / Senior Research Engineer
+        caption: February 2024 – June 2025
+        link: https://okestro.com
         quote: >
-          SAM 기반 화상 Segmentation 및 심도 분석 모델
+          AI Vision & Multimodal Research for Real-world Deployment
         description: |
-          - Active Learning 기반 화상 데이터셋 구축  
-          - SAM 기반 화상 Segmentation 모델 설계  
-          - 의료 영상 심도 분석 자동화 프로토타입 개발  
+          Led Vision Part of AGI Team focusing on real-world AI applications:  
+          - Samsung Bixby PDF QA Automation  
+          - Sewer Pipe Defect Detection (Seoul Digital Foundation)  
+          - Jetson-based People Counting & Fall Detection  
+          - Dinov2 + FAISS Doll Image Search Service  
 
-      - layout: left
-        border: weak
-        title: AI 기반 디지털 휴먼 콘텐츠 구축
-        link_text: 보훈인물 디지털 복원 프로젝트
+      - layout: center
+        title: Acryl Inc.
+        sub_title: Junior Research Engineer – AAAI Lab
+        caption: August 2022 – December 2023
+        link: https://acryl.ai
         quote: >
-          Whisper + VITS2 기반 음성 대화형 디지털 휴먼 모델 개발
+          Multimodal, Medical AI, and Digital Human Modeling
         description: |
-          - LiDAR + 이미지 기반 사람 인식 모델 구축  
-          - Whisper Prompt 최적화 및 대화 감지 알고리즘 구현  
-          - VITS2 + MB-iSTFT 기반 TTS 모델 설계  
+          - Developed **SAM-based** burn wound segmentation model  
+          - Designed **Whisper + VITS2** conversational TTS for digital humans  
+          - Built multimodal emotion classification model (Wav2Vec2 + MFB Fusion)  
+          - Participated in **Doctor Answer 2.0** medical AI project  
 
-      - layout: left
-        border: weak
-        title: AI 정밀의료 솔루션 (닥터앤서 2.0)
-        link_text: 의료영상 AI
+      - layout: center
+        title: Hanyang University, Lab of Code & Communication
+        sub_title: Graduate Research Assistant (M.S. Candidate)
+        caption: July 2019 – February 2022
+        link: https://hanyang.ac.kr
         quote: >
-          전립선 초음파 영상 기반 BPH 진단 보조모델 개발
+          Deep Learning-based Radar CFAR and Ghost Target Detection
         description: |
-          - SAM 기반 전립선 초음파 Segmentation  
-          - ResNet/EfficientNet/ViT 기반 분류 모델 구현  
-          - CRF 연동 멀티모달 모델 구축  
+          - Designed deep-learning CFAR with false alarm control loss  
+          - Constructed multi-modal fusion pipeline with **nuScenes dataset**  
+          - Presented papers at **KICS** and **IEEE IC-NIDC**
 
-      - layout: left
-        border: weak
-        title: 음성·텍스트·이미지 기반 멀티모달 감정 분류 모델 개발
+  - title: Education
+    layout: list
+    content:
+      - layout: center
+        title: Hanyang University
+        sub_title: M.S. in Convergence Electronic Engineering
+        caption: 2020 – 2022
         quote: >
-          Wav2Vec2 + MFB Fusion 기반 감정 인식 멀티모달 모델
-        description: |
-          - AIHub 음성데이터 + 자사 감정데이터 통합  
-          - Wav2Vec2 기반 음성 감정 모델 학습  
-          - MFB Fusion 멀티모달 알고리즘 및 API 배포  
+          Thesis: “Deep Learning-based CFAR with False Alarm Rate Control Loss”
 
-      - layout: left
-        border: weak
-        title: 단일 이미지 기반 사람 3D 체형 복원
-        quote: >
-          SMPL + ICON 기반 체형 복원 및 자동 치수 측정
-        description: |
-          - 4방향 이미지 기반 3D 복원 및 부위별 치수 산출  
-          - 평균 오차율 7%, KIMES 2023 전시 시연  
-          - 특허 출원 (10-2023-0024467)  
+      - layout: center
+        title: Hanyang University
+        sub_title: B.S. in Convergence Electronic Engineering
+        caption: 2013 – 2020
 
-      - layout: left
-        border: weak
-        title: 자율주행 레이더 기반 CFAR 오경보 확률 조절 연구
-        link_text: Hanyang Univ. Master Thesis
-        quote: >
-          Deep CFAR Loss 설계 및 Ghost Target 억제 연구
-        description: |
-          - 자율주행 레이더 신호의 오경보율 제어 손실함수 설계  
-          - Range-Doppler 스펙트럼 기반 CNN-RNN CFAR 모델 구축  
-          - nuScenes 데이터셋 멀티모달 학습 파이프라인 구성  
+      - layout: center
+        title: Sejong Science High School
+        sub_title: Science Program Graduate
+        caption: 2011 – 2013
+
+  - title: A Little More About Me
+    layout: text
+    content: |
+      Outside of AI and engineering, I enjoy:  
+      - Japanese travel & photography  
+      - Collecting retro keyboards  
+      - Building personal GUIs and automation tools  
+      - Sharing open-source research & documentation projects
 
 
 # Footer
