@@ -1,6 +1,28 @@
-<div class="container projects-container">
-  <h3 id="{{ site.projects_title | slugify | default: 'projects'}}">{{ site.projects_title | default: "Projects" }}</h3>
-  {% for project in site.data.projects %}
-    {% include {{ project.layout | default: 'left' | append: ".html" | prepend: "v1/" }} item=project %}
+{% if section.title == "Additional Projects" %}
+  <button class="toggle-btn" onclick="this.nextElementSibling.classList.toggle('hidden')">
+    ▼ 추가 프로젝트 보기
+  </button>
+{% endif %}
+
+<div class="project-list {% if section.title == 'Additional Projects' %}hidden{% endif %}">
+  {% for item in section.content %}
+    {% include v1/top-middle.html item=item %}
   {% endfor %}
 </div>
+
+<style>
+.hidden { display: none; }
+.toggle-btn {
+  display: block;
+  margin: 10px auto 20px auto;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 6px;
+  background: #007acc;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.toggle-btn:hover { background: #005fa3; }
+</style>
