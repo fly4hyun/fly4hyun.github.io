@@ -30,10 +30,14 @@ content:
   - title: Projects
     layout: list
     content:
-      - layout: left
+      - layout: center-project
         title: 인형 이미지 검색 서비스 개발
         link: https://github.com/fly4hyun/doll-image-search
         link_text: github.com/fly4hyun/doll-image-search
+        additional_links:
+          - title: GitHub
+            icon: fab fa-github
+            url: https://github.com/fly4hyun/bixby_dqa_pdf_automation
         quote: >
           Dinov2 + FAISS 기반 이미지 검색 및 PyQt5 라벨링 툴 구축
         description: |
