@@ -1,0 +1,12 @@
+/* Project 항목들을 좌우 분할 없이 중앙정렬 */
+.item.left, .item.right {
+  display: block !important;
+  text-align: center !important;
+}
+
+.item .title, .item .quote, .item .description, .item .additional-links {
+  text-align: center !important;
+  width: 100% !important;
+  margin: 0 auto !important;
+  display: block !important;
+}
