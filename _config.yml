@@ -31,7 +31,7 @@ content:
     layout: list
     content:
       - layout: top-middle
-        title: "인형 이미  지 검색 서비스 개발"
+        title: "인형 이미지 검색 서비스 개발"
         link: "https://github.com/fly4hyun/doll-image-search"
         link_text: "github.com/fly4hyun/doll-image-search"
         additional_links:
