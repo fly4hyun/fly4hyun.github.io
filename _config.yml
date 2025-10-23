@@ -44,7 +44,7 @@ content:
             인형 디자인 및 도안 제작 편의성을 위한 이미지 검색 시스템 개발 및 인형 DB 구축<br>
             - 인형 라벨링 툴 개발<br>
             - Dinov2 + FAISS 기반 이미지 검색 알고리즘 데모 구현<br>
-            - Streamlit 기반 검색 서비스 UI 데모 개발
+            - Streamlit 기반 검색 서비스 UI 데모 개발<br><br>
           </div>
 
       - layout: top-middle
@@ -62,7 +62,7 @@ content:
             - PDF 레이아웃 데이터 생성 및 검수를 위한 라벨링 툴 개발<br>
             - YOLOv12x 기반 PDF 레이아웃 검출 모델 학습<br>
             - 12개 레이아웃 클래스 정의 및 순서 정렬 알고리즘 개발<br>
-            - QA 데이터 자동 생성 알고리즘 개발 및 검수
+            - QA 데이터 자동 생성 알고리즘 개발 및 검수<br><br>
           </div>
 
       - layout: top-middle
@@ -80,7 +80,7 @@ content:
             - 사업 수행총괄<br>
             - 대표 결함 6종, 기타 결함 9종 데이터 인수 및 평가 데이터 검증<br>
             - 대표 결함 6종 F1-score 0.90, 기타 결함 9종 0.85 달성<br>
-            - BoT-SORT 기반 객체 추적 및 EasyOCR 후처리로 메타정보 추출
+            - BoT-SORT 기반 객체 추적 및 EasyOCR 후처리로 메타정보 추출<br><br>
           </div>
 
       - layout: top-middle
@@ -96,7 +96,7 @@ content:
           <div align="center" style="max-width:800px; margin:0 auto; text-align:center; font-size:18px; line-height:1.6;">
             자사 제품 개발을 위한 범죄 예방 지능형 CCTV 알고리즘 개발 및 엣지 디바이스 탑재<br>
             - 배회, 침입, 마케팅 알고리즘 개발 (KISA 인증 통과)<br>
-            - NVIDIA Jetson Embedded Platform 최적화 및 알고리즘 통합
+            - NVIDIA Jetson Embedded Platform 최적화 및 알고리즘 통합<br><br>
           </div>
 
       - layout: top-middle
@@ -114,7 +114,7 @@ content:
             - 질문에서 기간 및 위치 추출 후 기상청 API 호출 알고리즘 개발<br>
             - 호출한 날씨와 질문을 통합한 Prompt 기반 일정 추천 챗봇 구현<br>
             - FAISS 기반 문서 벡터화 및 검색 서비스 구축<br>
-            - 그래프 시각화 기반 근거 설명 기능 추가 (AI EXPO KOREA 2024 시연)
+            - 그래프 시각화 기반 근거 설명 기능 추가 (AI EXPO KOREA 2024 시연)<br><br>
           </div>
 
       - layout: top-middle
@@ -130,7 +130,7 @@ content:
           <div align="center" style="max-width:800px; margin:0 auto; text-align:center; font-size:18px; line-height:1.6;">
             화상 심도 분석을 보조하는 Segmentation 모델 개발<br>
             - Active Learning 기반 데이터셋 구축<br>
-            - SAM 기반 화상 Segmentation 모델 구현
+            - SAM 기반 화상 Segmentation 모델 구현<br><br>
           </div>
 
       - layout: top-middle
@@ -147,7 +147,7 @@ content:
             역사적 인물을 디지털로 복원하여 상호작용 가능한 AI 디지털 휴먼 플랫폼 개발<br>
             - 이미지 + LiDAR 기반 인식 모델 및 API 개발<br>
             - Whisper 모델 Prompt 최적화 및 대화 감지 알고리즘 구현<br>
-            - VITS2 + MB-iSTFT 기반 TTS 모델 개발
+            - VITS2 + MB-iSTFT 기반 TTS 모델 개발<br><br>
           </div>
 
       - layout: top-middle
@@ -164,7 +164,7 @@ content:
             전립선 초음파 기반 진단 보조 소프트웨어 개발<br>
             - SAM 기반 전립선 초음파 Segmentation 모델 개발<br>
             - ResNet, EfficientNet, ViT 기반 분류 모델 학습<br>
-            - CRF + 영상 데이터 결합 멀티모달 모델 구현
+            - CRF + 영상 데이터 결합 멀티모달 모델 구현<br><br>
           </div>
 
       - layout: top-middle
@@ -181,7 +181,7 @@ content:
             단일 사진 또는 4방향 사진으로 3D 체형 복원 및 부위별 치수 측정<br>
             - SMPL 기반 LVD + ICON 결합형 모델 설계<br>
             - 자동 신체 치수 측정 알고리즘 개발 (평균 오차율 7%)<br>
-            - 국제의료기기병원설비전시회 KIMES 2023 시연 및 특허 출원
+            - 국제의료기기병원설비전시회 KIMES 2023 시연 및 특허 출원<br><br>
           </div>
 
       - layout: top-middle
@@ -197,7 +197,7 @@ content:
           <div align="center" style="max-width:800px; margin:0 auto; text-align:center; font-size:18px; line-height:1.6;">
             화상 환부 이미지를 기반으로 심도 분류 모델 연구<br>
             - Swin Transformer 기반 분류 모델 검증<br>
-            - 최종 F1-score 90.37% (정상~3도 구분)
+            - 최종 F1-score 90.37% (정상~3도 구분)<br><br>
           </div>
 
 
