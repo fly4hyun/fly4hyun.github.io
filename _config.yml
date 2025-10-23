@@ -289,7 +289,6 @@ content:
       - layout: top
         title: "한양대학교"
         sub_title: "석사 · 융합전자공학과"
-        quote: ""
         description: |
           2020 – 2022<br>
           학위논문: 딥러닝 기반 CFAR 알고리즘의 오경보 확률 조절을 위한 손실함수 설계
@@ -297,14 +296,12 @@ content:
       - layout: top-mdle
         title: "한양대학교"
         sub_title: "학사 · 융합전자공학부"
-        quote: ""
         description: |
           2013 – 2020<br>
 
       - layout: top
         title: "세종과학고등학교"
         sub_title: "졸업"
-        quote: ""
         description: |
           2011 – 2013<br>
 
@@ -314,7 +311,6 @@ content:
       - layout: top
         title: "데이콘 월간 음성 감정 인식 AI 경진대회"
         sub_title: "5위"
-        quote: ""
         description: |
           2023.07<br>
           주최: DACON
@@ -323,7 +319,6 @@ content:
       - layout: top
         title: "한국통신학회 하계종합학술발표회 (KICS)"
         sub_title: "우수논문상"
-        quote: ""
         description: |
           2021.11<br>
           주최: 한국통신학회(KICS)
@@ -332,13 +327,13 @@ content:
   - title: "Certificates"
     layout: list
     content:
-      - layout: left
+      - layout: top
         title: "정보처리기능사"
         caption: "2017.12"
         description: |
           발급: 한국산업인력공단<br>
           자격번호: 17652504881V
-      - layout: left
+      - layout: top
         title: "자동차운전면허 2종 보통"
         caption: "2017.08"
         description: |
@@ -351,7 +346,6 @@ content:
       - layout: top
         title: "FMCW 레이더의 Range-Doppler spectrum에 기반한 합성곱-순환신경망 CFAR 설계"
         sub_title: "Conference Paper · 2저자"
-        quote: ""
         description: |
           2022.11<br>
           한국통신학회 추계종합학술발표회 (KICS)
@@ -360,7 +354,6 @@ content:
       - layout: top
         title: "다수 자율주행용 센서 기반 멀티모달 딥러닝을 통한 레이더 고스트 표적 탐지"
         sub_title: "Conference Paper · 2저자"
-        quote: ""
         description: |
           2022.02<br>
           한국통신학회 동계종합학술발표회 (KICS)
@@ -369,7 +362,6 @@ content:
       - layout: top
         title: "Construction of Error Correcting Output Codes for Robust Deep Neural Networks Based on Label Grouping Scheme"
         sub_title: "Conference Paper · 3rd Author"
-        quote: ""
         description: |
           2021.11<br>
           IEEE IC-NIDC 2021
@@ -378,7 +370,6 @@ content:
       - layout: top
         title: "딥러닝 기반 CFAR 알고리즘의 오경보 확률 조절을 위한 손실함수 설계"
         sub_title: "Conference Paper · 주저자"
-        quote: ""
         description: |
           2021.06<br>
           한국통신학회 하계종합학술발표회 (KICS)
