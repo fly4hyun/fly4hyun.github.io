@@ -6,16 +6,16 @@ favicon: images/favicon.ico
 version: 2
 
 # Personal info
-name: 이현희 (Hyunhee Lee)
-title: AI Research Engineer | Vision · Document · Multimodal AI Systems
-email: fly4hyun@naver.com
-phone: 010-5729-1995
-website: https://github.com/fly4hyun
+name: "이현희 (Hyunhee Lee)"
+title: "AI Research Engineer | Vision · Document · Multimodal AI Systems"
+email: "fly4hyun@naver.com"
+phone: "010-5729-1995"
+website: "https://github.com/fly4hyun"
 darkmode: false
 
 # Social links
-github_username: fly4hyun
-linkedin_username: 현희-이-612511290
+github_username: "fly4hyun"
+linkedin_username: "현희-이-612511290"
 
 # About Section
 about_profile_image: images/profile.jpg
@@ -27,19 +27,18 @@ about_content: |
   주요 분야: Object Detection · Document QA · Multimodal Learning · Model Optimization
 
 content:
-  - title: Projects
+  - title: "Projects"
     layout: list
     content:
       - layout: left
-        title: 인형 이미지 검색 서비스 개발
-        link: https://github.com/fly4hyun/doll-image-search
-        link_text: github.com/fly4hyun/doll-image-search
+        title: "인형 이미지 검색 서비스 개발"
+        link: "https://github.com/fly4hyun/doll-image-search"
+        link_text: "github.com/fly4hyun/doll-image-search"
         additional_links:
-          - title: GitHub
-            icon: fab fa-github
-            url: https://github.com/fly4hyun/doll-image-search
-        quote: >
-          Dinov2 + FAISS 기반 이미지 검색 및 PyQt5 라벨링 툴 구축
+          - title: "GitHub"
+            icon: "fab fa-github"
+            url: "https://github.com/fly4hyun/doll-image-search"
+        quote: "Dinov2 + FAISS 기반 이미지 검색 및 PyQt5 라벨링 툴 구축"
         description: |
           <div align="center">
           <b><a href="https://github.com/fly4hyun/doll-image-search">인형 이미지 검색 서비스 개발</a></b><br>
@@ -48,18 +47,17 @@ content:
 
           인형 디자인 및 부품 DB 구축을 위한 이미지 검색 시스템 개발  
           - Dinov2 + FAISS 기반 이미지 검색 알고리즘 구현  
-          - PyQt5 라벨링 툴 및 Streamlit 데모 UI 개발
+          - PyQt5 라벨링 툴 및 Streamlit 데모 UI 개발  
 
       - layout: left
-        title: 제품 매뉴얼 기반 Device AI QA 자동화 시스템
-        link: https://github.com/fly4hyun/bixby_dqa_pdf_automation
-        link_text: github.com/fly4hyun/bixby_dqa_pdf_automation
+        title: "제품 매뉴얼 기반 Device AI QA 자동화 시스템"
+        link: "https://github.com/fly4hyun/bixby_dqa_pdf_automation"
+        link_text: "github.com/fly4hyun/bixby_dqa_pdf_automation"
         additional_links:
-          - title: GitHub
-            icon: fab fa-github
-            url: https://github.com/fly4hyun/bixby_dqa_pdf_automation
-        quote: >
-          PDF 문서 분석을 통한 QA 데이터 자동 생성 및 빅스비 DQA DB 구축
+          - title: "GitHub"
+            icon: "fab fa-github"
+            url: "https://github.com/fly4hyun/bixby_dqa_pdf_automation"
+        quote: "PDF 문서 분석을 통한 QA 데이터 자동 생성 및 빅스비 DQA DB 구축"
         description: |
           삼성전자 설명서 PDF를 분석해 QA 데이터를 자동 생성하는 Vision+NLP 통합 시스템 구축  
           - YOLOv12x 기반 문서 레이아웃 검출 모델 개발  
@@ -67,88 +65,81 @@ content:
           - QA 자동 생성 알고리즘으로 데이터 구축 효율 6배 향상  
 
       - layout: left
-        title: 하수관로 결함탐지 시스템
-        link_text: Seoul Digital Foundation
-        quote: >
-          YOLOv12 + BoT-SORT 기반 결함 탐지 및 OCR 메타정보 추출
+        title: "하수관로 결함탐지 시스템"
+        link_text: "Seoul Digital Foundation"
+        quote: "YOLOv12 + BoT-SORT 기반 결함 탐지 및 OCR 메타정보 추출"
         description: |
           서울디지털재단 협력으로 하수관 내 결함 탐지 모델 개발  
           - 대표 결함 6종 F1-score 0.90, 기타 결함 9종 0.85 달성  
           - EasyOCR 기반 텍스트 인식 후 메타정보 자동 추출  
 
       - layout: left
-        title: 지능형 CCTV 알고리즘 개발
-        quote: >
-          Jetson 기반 배회·침입 감지 및 낙상 감지 AI 시스템
+        title: "지능형 CCTV 알고리즘 개발"
+        quote: "Jetson 기반 배회·침입 감지 및 낙상 감지 AI 시스템"
         description: |
           자사 제품용 Jetson Edge AI 비전 알고리즘 개발  
           - YOLOv12 객체 탐지, TensorRT 최적화로 30–40 FPS 구현  
           - KISA 지능형 CCTV 인증 통과  
 
       - layout: left
-        title: 실시간 날씨/여행 챗봇 및 문서 검색 서비스
-        quote: >
-          기상청 API 기반 여행 일정 추천 및 FAISS 문서 검색
+        title: "실시간 날씨/여행 챗봇 및 문서 검색 서비스"
+        quote: "기상청 API 기반 여행 일정 추천 및 FAISS 문서 검색"
         description: |
           실시간 날씨 기반 여행 일정 추천 챗봇과 문서 검색 서비스 구현  
           - 기상청 API 연동, FAISS 기반 문서 검색 파이프라인 구축  
           - Hallucination 저감형 답변 및 시각화 기능 구현  
 
-  - title: Experience
+  - title: "Experience"
     layout: list
     content:
       - layout: left
-        title: OKESTRO AGI(주)
-        sub_title: Vision Part Lead / 선임연구원
-        caption: 2024.02 – 2025.06
-        link: https://okestro.com
-        quote: >
-          Vision AI 및 Multimodal R&D 프로젝트 총괄
+        title: "OKESTRO AGI(주)"
+        sub_title: "Vision Part Lead / 선임연구원"
+        caption: "2024.02 – 2025.06"
+        link: "https://okestro.com"
+        quote: "Vision AI 및 Multimodal R&D 프로젝트 총괄"
         description: |
           - 삼성전자 Bixby QA 자동화, 하수관로 결함탐지, 지능형 CCTV 등 주도  
           - Jetson Edge AI 최적화 및 PyQt5 라벨링 툴 개발  
 
       - layout: left
-        title: ㈜ 아크릴 (Acryl Inc.)
-        sub_title: AAAI연구소 주임연구원
-        caption: 2022.08 – 2023.12
-        link: https://acryl.ai
-        quote: >
-          Multimodal / 의료영상 AI 연구개발
+        title: "㈜ 아크릴 (Acryl Inc.)"
+        sub_title: "AAAI연구소 주임연구원"
+        caption: "2022.08 – 2023.12"
+        link: "https://acryl.ai"
+        quote: "Multimodal / 의료영상 AI 연구개발"
         description: |
           - 화상 Segmentation, Digital Human, Emotion Classification 연구  
           - Whisper + VITS2 기반 음성·TTS 모델 설계  
           - Doctor Answer 2.0 참여 (전립선 초음파 진단 보조모델)
 
       - layout: left
-        title: 한양대학교 부호 및 통신 연구실
-        sub_title: 석사 연구원
-        caption: 2019.07 – 2022.02
-        quote: >
-          딥러닝 기반 CFAR 알고리즘 및 멀티모달 탐지 연구
+        title: "한양대학교 부호 및 통신 연구실"
+        sub_title: "석사 연구원"
+        caption: "2019.07 – 2022.02"
+        quote: "딥러닝 기반 CFAR 알고리즘 및 멀티모달 탐지 연구"
         description: |
           - Radar Ghost Target Detection / CFAR Loss 연구  
           - nuScenes 멀티모달 학습 파이프라인 구축  
 
-  - title: Education
+  - title: "Education"
     layout: list
     content:
       - layout: left
-        title: 한양대학교
-        sub_title: 석사, 융합전자공학과
-        caption: 2020 – 2022
-        quote: >
-          논문: 딥러닝 기반 CFAR 알고리즘의 오경보 확률 조절을 위한 손실함수 설계
+        title: "한양대학교"
+        sub_title: "석사, 융합전자공학과"
+        caption: "2020 – 2022"
+        quote: "논문: 딥러닝 기반 CFAR 알고리즘의 오경보 확률 조절을 위한 손실함수 설계"
       - layout: left
-        title: 한양대학교
-        sub_title: 학사, 융합전자공학부
-        caption: 2013 – 2020
+        title: "한양대학교"
+        sub_title: "학사, 융합전자공학부"
+        caption: "2013 – 2020"
       - layout: left
-        title: 세종과학고등학교
-        sub_title: 졸업
-        caption: 2011 – 2013
+        title: "세종과학고등학교"
+        sub_title: "졸업"
+        caption: "2011 – 2013"
 
-  - title: A Little More About Me
+  - title: "A Little More About Me"
     layout: text
     content: |
       - 일본 여행과 지역 음식 탐방을 좋아합니다.  
@@ -160,11 +151,11 @@ content:
 footer_show_references: false
 
 # Build settings
-remote_theme: sproogen/modern-resume-theme
+remote_theme: "sproogen/modern-resume-theme"
 
 sass:
   sass_dir: _sass
   style: compressed
 
 plugins:
- - jekyll-seo-tag
+  - jekyll-seo-tag
