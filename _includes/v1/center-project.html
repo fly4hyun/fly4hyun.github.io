@@ -1,39 +1,44 @@
-<div class="layout layout-center" style="text-align: center; margin: 40px 0;">
-  <h3 style="margin-bottom: 5px;">
-    {% if include.item.link %}
-      <a href="{{ include.item.link }}" target="_blank" style="text-decoration:none; color:#007acc;">
-        {{ include.item.title }}
-      </a>
-    {% else %}
-      {{ include.item.title }}
-    {% endif %}
-  </h3>
-
-  {% if include.item.link_text %}
-    <p style="margin-top:-10px;">
-      <a href="{{ include.item.link }}" target="_blank" style="color:#007acc;">
-        {{ include.item.link_text }}
-      </a>
-    </p>
-  {% endif %}
-
-  {% if include.item.additional_links %}
-    <p class="no-print">
-      {% for link in include.item.additional_links %}
-        <a href="{{ link.url }}" target="_blank" style="margin: 0 5px;">
-          <i class="{{ link.icon }}" title="{{ link.title }}"></i>
+<div class="container projects-container" style="text-align:center; margin: 40px 0;">
+  <h3 id="{{ site.projects_title | slugify | default: 'projects'}}">{{ site.projects_title | default: "Projects" }}</h3>
+  {% for project in site.data.projects %}
+  <div style="margin-bottom:50px;">
+    <h3 style="margin-bottom:5px;">
+      {% if project.link %}
+        <a href="{{ project.link }}" target="_blank" style="text-decoration:none; color:#007acc;">
+          {{ project.title }}
         </a>
-      {% endfor %}
-    </p>
-  {% endif %}
+      {% else %}
+        {{ project.title }}
+      {% endif %}
+    </h3>
 
-  {% if include.item.quote %}
-    <p class="quote" style="font-style: italic; margin-top: 10px;">{{ include.item.quote }}</p>
-  {% endif %}
+    {% if project.link_text %}
+      <p style="margin-top:-10px;">
+        <a href="{{ project.link }}" target="_blank" style="color:#007acc;">
+          {{ project.link_text }}
+        </a>
+      </p>
+    {% endif %}
 
-  {% if include.item.description %}
-    <div style="max-width: 700px; margin: 10px auto; text-align: center;">
-      {{ include.item.description | strip | markdownify }}
-    </div>
-  {% endif %}
+    {% if project.additional_links %}
+      <p class="no-print">
+        {% for link in project.additional_links %}
+          <a href="{{ link.url }}" target="_blank" style="margin:0 5px;">
+            <i class="{{ link.icon }}" title="{{ link.title }}"></i>
+          </a>
+        {% endfor %}
+      </p>
+    {% endif %}
+
+    {% if project.quote %}
+      <p class="quote" style="font-style:italic; margin-top:10px;">{{ project.quote }}</p>
+    {% endif %}
+
+    {% if project.description %}
+      <div style="max-width:700px; margin:10px auto; text-align:center;">
+        {{ project.description | strip | markdownify }}
+      </div>
+    {% endif %}
+  </div>
+  {% endfor %}
 </div>
