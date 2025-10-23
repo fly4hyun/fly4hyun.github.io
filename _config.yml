@@ -37,7 +37,7 @@ content:
         additional_links:
           - title: GitHub
             icon: fab fa-github
-            url: https://github.com/fly4hyun/bixby_dqa_pdf_automation
+            url: https://github.com/fly4hyun/doll-image-search
         quote: >
           Dinov2 + FAISS 기반 이미지 검색 및 PyQt5 라벨링 툴 구축
         description: |
