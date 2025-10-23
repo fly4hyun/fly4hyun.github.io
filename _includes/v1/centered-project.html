@@ -3,7 +3,7 @@
     {{ site.projects_title | default: "Projects" }}
   </h3>
 
-  {% for project in site.content[0].content %}
+  {% for project in page.content %}
   <div style="margin-bottom:50px;">
     <h3 style="margin-bottom:5px;">
       {% if project.link %}
