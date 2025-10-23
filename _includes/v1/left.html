@@ -1,14 +1,16 @@
 {% for item in include.content %}
   <div class="row clearfix layout layout-{{item.layout | default: 'left'}} border-{{item.border | default: 'no'}}">
-    
-    <!-- 왼쪽 제목 영역 제거 -->
-    {#
+
+    <!-- ✅ 왼쪽 영역 제거 (기존 제목, 링크, 아이콘 등) -->
+    <!-- 
     <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 details">
       <h4 id="{{ item.title | slugify }}">{{ item.title }}</h4>
       {%- if item.sub_title -%}<p><b>{{ item.sub_title }}</b></p>{%- endif -%}
       {%- if item.caption -%}<p>{{ item.caption }}</p>{%- endif -%}
       {%- if item.link -%}
-        {% include a.html href=item.link class="link" %}{{ item.link_text | default: item.link }}</a>
+        {% include a.html href=item.link class="link" %}
+          {%- if item.link_text -%}{{ item.link_text }}{%- else -%}{{ item.link }}{%- endif -%}
+        </a>
       {%- endif -%}
       <p class="no-print aditional-links">
         {% for link in item.additional_links %}
@@ -18,28 +20,36 @@
         {% endfor %}
       </p>
     </div>
-    #}
+    -->
 
-    <!-- 오른쪽 내용만 표시 -->
+    <!-- ✅ 오른쪽 영역만 사용 -->
     <div class="col-xs-12 col-sm-12 col-md-12 col-print-12 content">
-      <h4 style="margin-bottom:0.3rem;">
-        <a href="{{ item.link }}" target="_blank" style="color:inherit; text-decoration:none;">
+
+      <!-- 🔹 제목 -->
+      <h4 id="{{ item.title | slugify }}" style="margin-bottom: 0.3rem;">
+        <a href="{{ item.link }}" target="_blank" style="color: inherit; text-decoration: none;">
           {{ item.title }}
         </a>
       </h4>
+
+      <!-- 🔹 링크 텍스트 -->
       {% if item.link_text %}
-        <p style="font-style:italic; font-size:0.9rem; margin-top:-0.3rem;">
+        <p style="font-style: italic; font-size: 0.9rem; margin-top: -0.3rem;">
           {{ item.link_text }}
         </p>
       {% endif %}
 
+      <!-- 🔹 인용문 (quote) -->
       {% if item.quote %}
         <p class="quote">{{ item.quote }}</p>
       {% endif %}
+
+      <!-- 🔹 설명 (description) -->
       {{ item.description | strip | markdownify }}
 
+      <!-- 🔹 추가 링크 (GitHub 아이콘 등) -->
       {% if item.additional_links %}
-        <p>
+        <p style="margin-top: 0.3rem;">
           {% for link in item.additional_links %}
             {% include a.html href=link.url class="" %}
               <i class="{{ link.icon }}" title="{{ link.title | escape }}"></i>
@@ -47,6 +57,7 @@
           {% endfor %}
         </p>
       {% endif %}
+
     </div>
   </div>
 {% endfor %}
