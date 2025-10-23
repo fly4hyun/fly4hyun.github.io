@@ -1,39 +1,37 @@
-{% for item in include.content %}
-  <div class="row clearfix layout border-{{item.border | default: 'no'}}" style="display: block;">
-    <div class="col-xs-12 col-sm-12 col-md-12 col-print-12 content" style="width: 100%;">
-
-      <!-- 제목 및 링크 -->
-      <h4 id="{{ item.title | slugify }}" style="margin-bottom: 0.3rem;">
-        {% if item.link %}
-          <a href="{{ item.link }}" target="_blank" style="color: inherit; text-decoration: none;">
-            {{ item.title }}
+<div class="row clearfix layout layout-left">
+  <div class="col-xs-12 col-sm-12 col-md-12 col-print-12">
+    <div style="text-align: center; margin-bottom: 20px;">
+      <h4 style="margin-bottom: 5px;">
+        {% if include.item.link %}
+          <a href="{{ include.item.link }}" target="_blank" style="text-decoration: none; color: inherit;">
+            {{ include.item.title }}
           </a>
         {% else %}
-          {{ item.title }}
+          {{ include.item.title }}
         {% endif %}
       </h4>
 
-      {% if item.link_text %}
-        <p style="font-style: italic; font-size: 0.9rem; margin-top: -0.3rem;">
-          {{ item.link_text }}
-        </p>
-      {% endif %}
-
-      {% if item.quote %}
-        <p class="quote">{{ item.quote }}</p>
-      {% endif %}
-
-      {{ item.description | strip | markdownify }}
-
-      {% if item.additional_links %}
-        <p style="margin-top: 0.3rem;">
-          {% for link in item.additional_links %}
-            <a href="{{ link.url }}" target="_blank">
-              <i class="{{ link.icon }}" title="{{ link.title | escape }}"></i>
-            </a>
-          {% endfor %}
-        </p>
+      {% if include.item.link_text %}
+        <p style="font-style: italic; margin-top: 0;">{{ include.item.link_text }}</p>
       {% endif %}
     </div>
+
+    {% if include.item.quote %}
+      <p class="quote" style="text-align: center;">{{ include.item.quote }}</p>
+    {% endif %}
+
+    <div style="text-align: left;">
+      {{ include.item.description | strip | markdownify }}
+    </div>
+
+    {% if include.item.additional_links %}
+      <p style="text-align: center; margin-top: 10px;">
+        {% for link in include.item.additional_links %}
+          <a href="{{ link.url }}" target="_blank">
+            <i class="{{ link.icon }}"></i>
+          </a>
+        {% endfor %}
+      </p>
+    {% endif %}
   </div>
-{% endfor %}
+</div>
