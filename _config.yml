@@ -31,9 +31,8 @@ content:
     layout: list
     content:
       - layout: center
-        title: 인형 이미지 검색 서비스 개발
-        link: https://github.com/fly4hyun/doll-image-search
-        link_text: github.com/fly4hyun/doll-image-search
+        title: "<div style='text-align:center;'>인형 이미지 검색 서비스 개발</div>"
+        link: "<div style='text-align:center;'><a href='https://github.com/fly4hyun/doll-image-search'>github.com/fly4hyun/doll-image-search</a></div>"
         quote: >
           Dinov2 + FAISS 기반 이미지 검색 및 PyQt5 라벨링 툴 구축
         description: |
