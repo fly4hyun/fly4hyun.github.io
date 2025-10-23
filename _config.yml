@@ -30,15 +30,12 @@ content:
   - title: Projects
     layout: list
     content:
-      - title: Projects
-        layout: list
-        content:
-          - layout: center
-            title: 인형 이미지 검색 서비스 개발
-            link: https://github.com/fly4hyun/doll-image-search
-            link_text: github.com/fly4hyun/doll-image-search
-            quote: >
-              Dinov2 + FAISS 기반 이미지 검색 및 PyQt5 라벨링 툴 구축
+      - layout: center
+        title: 인형 이미지 검색 서비스 개발
+        link: https://github.com/fly4hyun/doll-image-search
+        link_text: github.com/fly4hyun/doll-image-search
+        quote: >
+          Dinov2 + FAISS 기반 이미지 검색 및 PyQt5 라벨링 툴 구축
         description: |
           인형 디자인 및 부품 DB 구축을 위한 이미지 검색 시스템 개발  
           - Dinov2 + FAISS 기반 이미지 검색 알고리즘 구현  
