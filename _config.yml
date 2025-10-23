@@ -34,52 +34,68 @@ content:
         title: "제품 매뉴얼을 이용한 Device AI QA 자동화 시스템 구축"
         link: "https://github.com/fly4hyun/bixby-dqa-automation"
         link_text: "github.com/fly4hyun/bixby-dqa-automation"
-        quote: "2024.12–2025.04"
+        additional_links:
+          - title: "GitHub"
+            icon: "fab fa-github"
+            url: "https://github.com/fly4hyun/bixby-dqa-automation"
+        quote: "2024.12-2025.04"
         description: |
-          <div align="center" style="max-width:900px; font-size:18px;">
+          <div align="center" style="max-width:800px; margin:0 auto; text-align:center; font-size:18px; line-height:1.6;">
             삼성전자 설명서 PDF에서 QA 데이터를 자동 생성 및 정리하여 빅스비 DQA DB를 구축하는 자동화 프로세스 개발<br>
             - PDF 레이아웃 데이터 생성 및 검수를 위한 라벨링 툴 개발<br>
             - YOLOv12x 기반 PDF 레이아웃 검출 모델 학습<br>
             - 12개 레이아웃 클래스 정의 및 순서 정렬 알고리즘 개발<br>
-            - QA 데이터 자동 생성 알고리즘 개발 및 검수
+            - QA 데이터 자동 생성 알고리즘 개발 및 검수<br><br>
           </div>
 
       - layout: top-middle
         title: "AI 기반 하수관로 결함탐지 알고리즘 실용화 연구 용역"
         link: "https://github.com/fly4hyun/sewer-defect-detection"
         link_text: "github.com/fly4hyun/sewer-defect-detection"
-        quote: "2024.08–2024.11"
+        additional_links:
+          - title: "GitHub"
+            icon: "fab fa-github"
+            url: "https://github.com/fly4hyun/sewer-defect-detection"
+        quote: "2024.08-2024.11"
         description: |
-          <div align="center" style="max-width:900px; font-size:18px;">
+          <div align="center" style="max-width:800px; margin:0 auto; text-align:center; font-size:18px; line-height:1.6;">
             하수관로 내 결함 탐지 및 추적 모델을 개발하여 현장 실무 적용이 가능한 시각화 서비스 제공<br>
             - 사업 수행총괄<br>
-            - 대표 결함 6종, 기타 결함 9종 데이터 인수 및 평가 데이터 선별<br>
+            - 대표 결함 6종, 기타 결함 9종 데이터 인수 및 검증/평가 데이터 선별<br>
             - 대표 결함 F1-score 0.90, 기타 결함 0.85 달성<br>
-            - BoT-SORT 추적 + EasyOCR 후처리로 메타정보 추출
+            - BoT-SORT 기반 객체 추적, EasyOCR + 후처리로 하수관 메타정보 추출 알고리즘 개발<br><br>
           </div>
 
       - layout: top-middle
         title: "지능형 CCTV 기술 개발"
         link: "https://github.com/fly4hyun/intelligent-cctv"
         link_text: "github.com/fly4hyun/intelligent-cctv"
-        quote: "2024.04–2024.08"
+        additional_links:
+          - title: "GitHub"
+            icon: "fab fa-github"
+            url: "https://github.com/fly4hyun/intelligent-cctv"
+        quote: "2024.04-2024.08"
         description: |
-          <div align="center" style="max-width:900px; font-size:18px;">
-            자사 제품용 범죄 예방 지능형 CCTV 알고리즘 개발 및 엣지 디바이스 탑재<br>
-            - 배회, 침입, 마케팅 알고리즘 개발 (KISA 인증 통과)<br>
-            - NVIDIA Jetson Edge 최적화 및 코드 통합
+          <div align="center" style="max-width:800px; margin:0 auto; text-align:center; font-size:18px; line-height:1.6;">
+            자사 제품 개발을 위한 범죄 예방 지능형 CCTV 알고리즘 개발 및 엣지 디바이스 탑재<br>
+            - 배회, 침입, 마케팅 알고리즘 개발 (배회, 침입 알고리즘은 KISA 인증 통과)<br>
+            - NVIDIA Jetson Embedded Platform 최적화 및 알고리즘별 코드 통합<br><br>
           </div>
 
       - layout: top-middle
         title: "단일 이미지 기반 사람 3D 체형 복원 모델 개발"
         link: "https://github.com/fly4hyun/3d-body-reconstruction"
         link_text: "github.com/fly4hyun/3d-body-reconstruction"
-        quote: "2022.09–2023.03"
+        additional_links:
+          - title: "GitHub"
+            icon: "fab fa-github"
+            url: "https://github.com/fly4hyun/3d-body-reconstruction"
+        quote: "2022.09-2023.03"
         description: |
-          <div align="center" style="max-width:900px; font-size:18px;">
-            단일 사진 또는 4방향 사진으로 3D 체형을 복원하고 부위별 치수를 측정하는 모델 개발<br>
-            - SMPL + ICON 기반 3D 체형 복원 모델 구현<br>
-            - 평균 오차율 7%, KIMES 2023 시연 및 특허 출원 (10-2023-0024467)
+          <div align="center" style="max-width:800px; margin:0 auto; text-align:center; font-size:18px; line-height:1.6;">
+            단일 사진 또는 4방향 사진만으로 3D 체형을 복원하고 부위별 치수를 측정하는 알고리즘 개발<br>
+            - SMPL 기반 LVD + ICON 모델 결합<br>
+            - 평균 오차율 7%, KIMES 2023 시연 및 특허 출원 (10-2023-0024467)<br><br>
           </div>
 
   - title: "──────────────────────────────"
@@ -94,131 +110,67 @@ content:
     content:
       - layout: top-middle
         title: "인형 이미지 검색 서비스 개발"
-        quote: "2024.03–2025.05"
+        link: "https://github.com/fly4hyun/doll-image-search"
+        link_text: "github.com/fly4hyun/doll-image-search"
+        additional_links:
+          - title: "GitHub"
+            icon: "fab fa-github"
+            url: "https://github.com/fly4hyun/doll-image-search"
+        quote: "2024.03-2025.05"
         description: |
-          <div align="center" style="max-width:900px; font-size:18px;">
-            인형 디자인 및 도안 제작 편의성을 위한 이미지 검색 시스템 개발 및 DB 구축<br>
-            - Dinov2 + FAISS 기반 검색<br>
-            - PyQt5 라벨링 툴 및 Streamlit 데모 UI 개발
+          <div align="center" style="max-width:800px; margin:0 auto; text-align:center; font-size:18px; line-height:1.6;">
+            인형 디자인 및 도안 제작 편의성을 위한 이미지 검색 시스템 개발 및 인형 DB 구축<br>
+            - 인형 라벨링 툴 개발<br>
+            - Dinov2 + FAISS 기반 이미지 검색 알고리즘 데모 구현<br>
+            - Streamlit 기반 검색 서비스 UI 데모 개발<br><br>
           </div>
 
       - layout: top-middle
         title: "화상 진단 솔루션 개발"
-        quote: "2023.08–2023.12"
+        link: "https://github.com/fly4hyun/burn-segmentation"
+        link_text: "github.com/fly4hyun/burn-segmentation"
+        additional_links:
+          - title: "GitHub"
+            icon: "fab fa-github"
+            url: "https://github.com/fly4hyun/burn-segmentation"
+        quote: "2023.08-2023.12"
         description: |
-          <div align="center" style="max-width:900px; font-size:18px;">
-            화상 심도 분석 보조 Segmentation 모델 개발<br>
-            - Active Learning 기반 데이터셋 구축<br>
-            - SAM 기반 Segmentation 모델 개발
+          <div align="center" style="max-width:800px; margin:0 auto; text-align:center; font-size:18px; line-height:1.6;">
+            화상 심도 분석을 보조하는 Segmentation 모델 개발<br>
+            - Active Learning을 활용한 화상 Segmentation 데이터셋 구축<br>
+            - SAM 기반 화상 Segmentation 모델 개발<br><br>
           </div>
 
       - layout: top-middle
-        title: "보훈인물 AI 기반 디지털 휴먼 콘텐츠 구축"
-        quote: "2023.08–2023.12"
+        title: "보훈인물 AI 기반 디지털 휴먼 콘텐츠(플랫폼) 구축"
+        link: "https://github.com/fly4hyun/digital-human"
+        link_text: "github.com/fly4hyun/digital-human"
+        additional_links:
+          - title: "GitHub"
+            icon: "fab fa-github"
+            url: "https://github.com/fly4hyun/digital-human"
+        quote: "2023.08-2023.12"
         description: |
-          <div align="center" style="max-width:900px; font-size:18px;">
-            역사 인물을 복원한 대화형 AI 디지털 휴먼 플랫폼 개발<br>
-            - Whisper Prompt 최적화 및 대화 감지 알고리즘 구현<br>
-            - VITS2 + MB-iSTFT 기반 TTS 모델 설계
+          <div align="center" style="max-width:800px; margin:0 auto; text-align:center; font-size:18px; line-height:1.6;">
+            역사적 인물을 디지털로 복원하여 기념관 방문객과 상호작용 가능한 AI 디지털 휴먼 플랫폼 개발<br>
+            - 이미지와 LiDAR 기반 사람 인식 모델 및 API 개발<br>
+            - Whisper 모델 Prompt 최적화 및 대화 감지 알고리즘 구현<br>
+            - VITS2 + MB-iSTFT 기반 TTS 모델 개발<br><br>
           </div>
 
       - layout: top-middle
-        title: "AI 정밀의료솔루션 (닥터앤서 2.0)"
-        quote: "2023.08–2023.09"
+        title: "AI 정밀의료솔루션 (닥터앤서 2.0) 개발"
+        link: "https://github.com/fly4hyun/doctor-answer2"
+        link_text: "github.com/fly4hyun/doctor-answer2"
+        additional_links:
+          - title: "GitHub"
+            icon: "fab fa-github"
+            url: "https://github.com/fly4hyun/doctor-answer2"
+        quote: "2023.08-2023.09"
         description: |
-          <div align="center" style="max-width:900px; font-size:18px;">
-            전립선 초음파 기반 진단 보조 SW 개발<br>
-            - SAM 기반 초음파 Segmentation<br>
-            - ViT 기반 영상 분류 및 CRF 데이터 융합
+          <div align="center" style="max-width:800px; margin:0 auto; text-align:center; font-size:18px; line-height:1.6;">
+            전립선 초음파 기반 전립선증식증 진단 보조 SW 개발<br>
+            - SAM 기반 전립선 초음파 Segmentation 모델 개발<br>
+            - 초음파영상 분류 모델 개발 (ResNet, EfficientNet, ViT)<br>
+            - CRF 및 영상 데이터 결합 멀티모달 모델 구현<br><br>
           </div>
-
-      - layout: top-middle
-        title: "음성-텍스트-이미지 기반 멀티모달 감정 분류 모델"
-        quote: "2023.01–2023.06"
-        description: |
-          <div align="center" style="max-width:900px; font-size:18px;">
-            멀티모달 감정 인식 및 플랫폼 배포<br>
-            - Wav2Vec2 기반 음성 감정 모델<br>
-            - MFB 기반 Last Fusion 구조 구현
-          </div>
-
-      - layout: top-middle
-        title: "이미지 기반 화상 심도 측정 모델"
-        quote: "2022.08–2023.03"
-        description: |
-          <div align="center" style="max-width:900px; font-size:18px;">
-            화상 이미지 기반 심도 분류 모델 연구<br>
-            - Swin Transformer 기반 분류<br>
-            - F1-score 0.90 달성, Skinex 의료기기 탑재
-          </div>
-
-  - title: "Experience"
-    layout: list
-    content:
-      - layout: left
-        title: "OKESTRO AGI(주)"
-        sub_title: "Vision Part Lead / 선임연구원"
-        caption: "2024.02 – 2025.06"
-        link: "https://okestro.com"
-        quote: "Vision AI 및 Multimodal R&D 프로젝트 총괄"
-        description: |
-          - 삼성전자 Bixby QA 자동화, 하수관로 결함탐지, 지능형 CCTV 등 주도  
-          - Jetson Edge AI 최적화 및 PyQt5 라벨링 툴 개발  
-
-      - layout: left
-        title: "㈜ 아크릴 (Acryl Inc.)"
-        sub_title: "AAAI연구소 주임연구원"
-        caption: "2022.08 – 2023.12"
-        link: "https://acryl.ai"
-        quote: "Multimodal / 의료영상 AI 연구개발"
-        description: |
-          - 화상 Segmentation, Digital Human, Emotion Classification 연구  
-          - Whisper + VITS2 기반 음성·TTS 모델 설계  
-          - Doctor Answer 2.0 참여 (전립선 초음파 진단 보조모델)
-
-      - layout: left
-        title: "한양대학교 부호 및 통신 연구실"
-        sub_title: "석사 연구원"
-        caption: "2019.07 – 2022.02"
-        quote: "딥러닝 기반 CFAR 알고리즘 및 멀티모달 탐지 연구"
-        description: |
-          - Radar Ghost Target Detection / CFAR Loss 연구  
-          - nuScenes 멀티모달 학습 파이프라인 구축  
-
-  - title: "Education"
-    layout: list
-    content:
-      - layout: left
-        title: "한양대학교"
-        sub_title: "석사, 융합전자공학과"
-        caption: "2020 – 2022"
-        quote: "논문: 딥러닝 기반 CFAR 알고리즘의 오경보 확률 조절을 위한 손실함수 설계"
-      - layout: left
-        title: "한양대학교"
-        sub_title: "학사, 융합전자공학부"
-        caption: "2013 – 2020"
-      - layout: left
-        title: "세종과학고등학교"
-        sub_title: "졸업"
-        caption: "2011 – 2013"
-
-  - title: "A Little More About Me"
-    layout: text
-    content: |
-      - 일본 여행과 지역 음식 탐방을 좋아합니다.  
-      - PyQt5 기반 툴 개발, Streamlit 데모 제작 등 개인 프로젝트를 즐깁니다.  
-      - Dinov2, YOLOv12, TensorRT, Jetson 최적화에 관심이 많습니다.  
-      - 업무 외에는 레트로 키보드 수집과 라멘/사케 취미를 갖고 있습니다.
-
-# Footer
-footer_show_references: false
-
-# Build settings
-remote_theme: "sproogen/modern-resume-theme"
-
-sass:
-  sass_dir: _sass
-  style: compressed
-
-plugins:
-  - jekyll-seo-tag
