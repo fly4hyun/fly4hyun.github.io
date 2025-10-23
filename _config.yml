@@ -275,37 +275,56 @@ content:
           ● 의료영상/감정분석/디지털휴먼 등 도메인 적용
           ● 모델 고도화 및 서비스 연계 PoC 다수
 
-  - title: "Education"
-    layout: list
-    content:
-      - layout: left
-        title: "한양대학교"
-        sub_title: "석사 · 융합전자공학과"
-        caption: "2020 – 2022"
-        description: |
-          ● 학위논문: 딥러닝 기반 CFAR 알고리즘의 오경보 확률 조절을 위한 손실함수 설계
-      - layout: left
-        title: "한양대학교"
-        sub_title: "학사 · 융합전자공학부"
-        caption: "2013 – 2020"
-      - layout: left
-        title: "세종과학고등학교"
-        sub_title: "졸업"
-        caption: "2011 – 2013"
+- title: "Education"
+  layout: list
+  content:
+    - layout: top-middle
+      title: "한양대학교"
+      sub_title: "석사 · 융합전자공학과"
+      quote: "2020 – 2022"
+      description: |
+        <div align="center" style="max-width:800px; margin:0 auto; text-align:center; font-size:18px; line-height:1.6;">
+          학위논문: 딥러닝 기반 CFAR 알고리즘의 오경보 확률 조절을 위한 손실함수 설계
+        </div>
 
-  - title: "Awards"
-    layout: list
-    content:
-      - layout: left
-        title: "데이콘 월간 음성 감정 인식 AI 경진대회 5위"
-        caption: "2023.07"
-        description: |
-          주최: Dacon
-      - layout: left
-        title: "한국통신학회 하계종합학술발표회 우수논문상"
-        caption: "2021.11"
-        description: |
+    - layout: top-middle
+      title: "한양대학교"
+      sub_title: "학사 · 융합전자공학부"
+      quote: "2013 – 2020"
+      description: |
+        <div align="center" style="max-width:800px; margin:0 auto; text-align:center; font-size:18px; line-height:1.6;">
+          전공: 융합전자공학부
+        </div>
+
+    - layout: top-middle
+      title: "세종과학고등학교"
+      sub_title: "졸업"
+      quote: "2011 – 2013"
+      description: |
+        <div align="center" style="max-width:800px; margin:0 auto; text-align:center; font-size:18px; line-height:1.6;">
+          과학고 조기이수(해당 시) 또는 일반 졸업
+        </div>
+
+- title: "Awards"
+  layout: list
+  content:
+    - layout: top-middle
+      title: "데이콘 월간 음성 감정 인식 AI 경진대회"
+      sub_title: "5위"
+      quote: "2023.07"
+      description: |
+        <div align="center" style="max-width:800px; margin:0 auto; text-align:center; font-size:18px; line-height:1.6;">
+          주최: DACON
+        </div>
+
+    - layout: top-middle
+      title: "한국통신학회 하계종합학술발표회 (KICS)"
+      sub_title: "우수논문상"
+      quote: "2021.11"
+      description: |
+        <div align="center" style="max-width:800px; margin:0 auto; text-align:center; font-size:18px; line-height:1.6;">
           주최: 한국통신학회(KICS)
+        </div>
 
   - title: "Certificates"
     layout: list
@@ -323,37 +342,44 @@ content:
           발급: 서울지방경찰청
           면허번호: 11-17-826665-80
 
-  - title: "Publications"
-    layout: list
-    content:
-      - layout: left
-        title: "한국통신학회 추계종합학술발표회 (KICS)"
-        sub_title: "Conference Paper"
-        caption: "2022.11"
-        description: |
+- title: "Publications"
+  layout: list
+  content:
+    - layout: top-middle
+      title: "한국통신학회 추계종합학술발표회 (KICS)"
+      sub_title: "Conference Paper · 2저자"
+      quote: "2022.11"
+      description: |
+        <div align="center" style="max-width:800px; margin:0 auto; text-align:center; font-size:18px; line-height:1.6;">
           논문명: FMCW 레이더의 Range-Doppler spectrum에 기반한 합성곱-순환신경망 CFAR 설계
-          저자순위: 2저자
-      - layout: left
-        title: "한국통신학회 동계종합학술발표회 (KICS)"
-        sub_title: "Conference Paper"
-        caption: "2022.02"
-        description: |
+        </div>
+
+    - layout: top-middle
+      title: "한국통신학회 동계종합학술발표회 (KICS)"
+      sub_title: "Conference Paper · 2저자"
+      quote: "2022.02"
+      description: |
+        <div align="center" style="max-width:800px; margin:0 auto; text-align:center; font-size:18px; line-height:1.6;">
           논문명: 다수 자율주행용 센서 기반 멀티모달 딥러닝을 통한 레이더 고스트 표적 탐지
-          저자순위: 2저자
-      - layout: left
-        title: "IEEE IC-NIDC 2021"
-        sub_title: "Conference Paper"
-        caption: "2021.11"
-        description: |
+        </div>
+
+    - layout: top-middle
+      title: "IEEE IC-NIDC 2021"
+      sub_title: "Conference Paper · 3rd Author"
+      quote: "2021.11"
+      description: |
+        <div align="center" style="max-width:800px; margin:0 auto; text-align:center; font-size:18px; line-height:1.6;">
           Paper: Construction of Error Correcting Output Codes for Robust Deep Neural Networks Based on Label Grouping Scheme
-          Authorship: 3rd author
-      - layout: left
-        title: "한국통신학회 하계종합학술발표회 (KICS)"
-        sub_title: "Conference Paper"
-        caption: "2021.06"
-        description: |
+        </div>
+
+    - layout: top-middle
+      title: "한국통신학회 하계종합학술발표회 (KICS)"
+      sub_title: "Conference Paper · 주저자"
+      quote: "2021.06"
+      description: |
+        <div align="center" style="max-width:800px; margin:0 auto; text-align:center; font-size:18px; line-height:1.6;">
           논문명: 딥러닝 기반 CFAR 알고리즘의 오경보 확률 조절을 위한 손실함수 설계
-          저자순위: 주저자
+        </div>
 
 
   - title: "A Little More About Me"
