@@ -1,70 +1,42 @@
 # Site
-repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
-# favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
+repository: fly4hyun/fly4hyun.github.io
+favicon: images/favicon.ico
 
 # Content configuration version
 version: 2
 
 # Personal info
-name: 이현희 (Hyunhee)
-title: Your job title
-email: Your email (optional)
-# email_title: Email (Email title override)
-phone: Your phone number (optional)
-# phone_title: Phone (Phone title override)
-website: Your website (eg. https://google.com)(optional)
-# website_title: Web (Website title override)
-
-# Dark Mode (true/false/never)
+name: 이현희 (Hyunhee Lee)
+title: Vision AI Research Engineer / Vision Part Lead
+email: fly4hyun@naver.com
+phone: 🟦
+website: 🟦
 darkmode: false
 
 # Social links
-twitter_username: jekyllrb
-github_username:  jekyll
-stackoverflow_username: "00000001"
-dribbble_username: jekyll
-facebook_username: jekyll
-flickr_username: jekyll
-instagram_username: jekyll
-linkedin_username: jekyll
-xing_username: jekyll
-pinterest_username: jekyll
-youtube_username: jekyll
-orcid_username: 0000-0000-0000-0000
+github_username: fly4hyun
+linkedin_username: hyunhee-lee-ai
 googlescholar_username: D847cGsAAAAJ
 
-# Additional icon links
-additional_links:
-- title: Link name
-  icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-  url: Link url (eg. https://google.com)
-# - title: another link
-#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-#   url: Link url (eg. https://google.com)
-
-# Google Analytics and Tag Manager
-# Using more than one of these may cause issues with reporting
-# gtm: "GTM-0000000"
-# gtag: "UA-00000000-0"
-# google_analytics: "UA-00000000-0"
-
 # About Section
-# about_title: About Me (Use this to override about section title)
-about_profile_image: Directory of profile image (eg. images/profile.jpg)
-about_content: | # this will include new lines to allow paragraphs
-  Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
+about_profile_image: images/profile.jpg
+about_content: |
+  Vision AI 및 Multimodal Research Engineer로서 딥러닝 기반 영상 인식, 문서 분석, 멀티모달 학습 및 Edge Device 최적화까지
+  산업 현장에서 직접 사용되는 AI 시스템을 설계하고 개발했습니다.
+  Jetson, PyTorch, TensorRT, Dinov2, FAISS 등 실무 중심의 AI 개발 환경에 능숙합니다.
 
-  You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
-    - Lists
-    - Tables
-    - <a href="google.com">Links</a>
-    - Images ![alt text](/images/landscape-trees.jpg "Trees")
+  주요 키워드:
+
+  Document QA Automation / Object Detection / Layout Analysis  
+  Multimodal Emotion & Medical AI / Segmentation / 3D Reconstruction  
+  Jetson Edge Deployment / TensorRT Optimization / PyQt5 GUI  
+  YOLOv12, Dinov2, FAISS, Whisper, SAM, VITS2, Wav2Vec2
 
 content:
   - title: Projects
     layout: list
     content:
-      - layout: center
+      - layout: left
         title: 인형 이미지 검색 서비스 개발
         link: https://github.com/fly4hyun/doll-image-search
         link_text: github.com/fly4hyun/doll-image-search
@@ -75,13 +47,12 @@ content:
         quote: >
           Dinov2 + FAISS 기반 이미지 검색 및 PyQt5 라벨링 툴 구축
         description: |
-          Developed an image search system for doll design and part management.  
-          - Built an end-to-end image retrieval pipeline using **Dinov2 + FAISS**  
-          - Designed a **PyQt5 labeling tool** for category annotation  
-          - Deployed a **Streamlit-based demo UI** for interactive search  
+          인형 디자인 및 부품 DB 구축을 위한 이미지 검색 시스템 개발  
+          - Dinov2 + FAISS 기반 이미지 검색 알고리즘 구현  
+          - PyQt5 라벨링 툴 및 Streamlit 데모 UI 개발  
 
-      - layout: center
-        title: Device AI QA Automation for Samsung Bixby
+      - layout: left
+        title: 제품 매뉴얼 기반 Device AI QA 자동화 시스템
         link: https://github.com/fly4hyun/bixby_dqa_pdf_automation
         link_text: github.com/fly4hyun/bixby_dqa_pdf_automation
         additional_links:
@@ -89,123 +60,108 @@ content:
             icon: fab fa-github
             url: https://github.com/fly4hyun/bixby_dqa_pdf_automation
         quote: >
-          PDF 문서 분석을 통한 QA 데이터 자동 생성 및 빅스비 DB 구축
+          PDF 문서 분석을 통한 QA 데이터 자동 생성 및 빅스비 DQA DB 구축
         description: |
-          Automated QA dataset generation from Samsung device manuals (PDF).  
-          - **YOLOv12x**-based layout detection model for structured parsing  
-          - 12 document layout classes with sequence ordering algorithm  
-          - Automated QA pair generation and validation pipeline  
+          삼성전자 설명서 PDF를 분석해 QA 데이터를 자동 생성하는 Vision+NLP 통합 시스템 구축  
+          - YOLOv12x 기반 문서 레이아웃 검출 모델 개발  
+          - 12개 레이아웃 클래스 정의 및 순서 정렬 알고리즘 구현  
+          - QA 자동 생성 알고리즘으로 데이터 구축 효율 6배 향상  
 
-      - layout: center
-        title: Sewer Pipe Defect Detection System
-        link_text: Seoul Digital Foundation Project
+      - layout: left
+        title: 하수관로 결함탐지 시스템
+        link_text: Seoul Digital Foundation
         quote: >
           YOLOv12 + BoT-SORT 기반 결함 탐지 및 OCR 메타정보 추출
         description: |
-          Developed AI model for sewer defect detection and visualization.  
-          - 15-class defect detection using **YOLOv12 + BoT-SORT**  
-          - Text extraction with **EasyOCR** and metadata post-processing  
-          - Achieved **F1-score 0.90** for major defect classes  
+          서울디지털재단 협력으로 하수관 내 결함 탐지 모델 개발  
+          - 대표 결함 6종 F1-score 0.90, 기타 결함 9종 0.85 달성  
+          - EasyOCR 기반 텍스트 인식 후 메타정보 자동 추출  
 
-      - layout: center
-        title: Intelligent CCTV for Edge Deployment
+      - layout: left
+        title: 지능형 CCTV 알고리즘 개발
         quote: >
-          Jetson Orin NX 기반 배회·침입 탐지 및 낙상 감지 시스템
+          Jetson 기반 배회·침입 감지 및 낙상 감지 AI 시스템
         description: |
-          Designed real-time video analytics system on **NVIDIA Jetson Orin NX**.  
-          - People counting, fall detection, and intrusion tracking  
-          - TensorRT optimization achieving **30–40 FPS** edge inference  
-          - Passed **KISA AI CCTV certification** for behavior detection  
+          자사 제품용 Jetson Edge AI 비전 알고리즘 개발  
+          - YOLOv12 객체 탐지, TensorRT 최적화로 30–40 FPS 구현  
+          - KISA 지능형 CCTV 인증 통과  
 
-      - layout: center
-        title: Real-time Weather & Travel Planner Chatbot
+      - layout: left
+        title: 실시간 날씨/여행 챗봇 및 문서 검색 서비스
         quote: >
-          기상청 API 기반 여행 일정 추천 및 문서 검색 서비스
+          기상청 API 기반 여행 일정 추천 및 FAISS 문서 검색
         description: |
-          Built multimodal chatbot integrating weather data and document retrieval.  
-          - Extracted location & time from questions, used KMA API for forecast  
-          - Built **FAISS**-based document search with hallucination control  
-          - Showcased at **AI EXPO KOREA 2024**
+          실시간 날씨 기반 여행 일정 추천 챗봇과 문서 검색 서비스 구현  
+          - 기상청 API 연동, FAISS 기반 문서 검색 파이프라인 구축  
+          - Hallucination 저감형 답변 및 시각화 기능 구현  
 
   - title: Experience
     layout: list
     content:
-      - layout: center
-        title: OKESTRO AGI
-        sub_title: Vision Part Lead / Senior Research Engineer
-        caption: February 2024 – June 2025
+      - layout: left
+        title: OKESTRO AGI(주)
+        sub_title: Vision Part Lead / 선임연구원
+        caption: 2024.02 – 2025.06
         link: https://okestro.com
         quote: >
-          AI Vision & Multimodal Research for Real-world Deployment
+          Vision AI 및 Multimodal R&D 프로젝트 총괄
         description: |
-          Led Vision Part of AGI Team focusing on real-world AI applications:  
-          - Samsung Bixby PDF QA Automation  
-          - Sewer Pipe Defect Detection (Seoul Digital Foundation)  
-          - Jetson-based People Counting & Fall Detection  
-          - Dinov2 + FAISS Doll Image Search Service  
+          - 삼성전자 Bixby QA 자동화, 하수관로 결함탐지, 지능형 CCTV 등 주도  
+          - Jetson Edge AI 최적화 및 PyQt5 라벨링 툴 개발  
 
-      - layout: center
-        title: Acryl Inc.
-        sub_title: Junior Research Engineer – AAAI Lab
-        caption: August 2022 – December 2023
+      - layout: left
+        title: ㈜ 아크릴 (Acryl Inc.)
+        sub_title: AAAI연구소 주임연구원
+        caption: 2022.08 – 2023.12
         link: https://acryl.ai
         quote: >
-          Multimodal, Medical AI, and Digital Human Modeling
+          Multimodal / 의료영상 AI 연구개발
         description: |
-          - Developed **SAM-based** burn wound segmentation model  
-          - Designed **Whisper + VITS2** conversational TTS for digital humans  
-          - Built multimodal emotion classification model (Wav2Vec2 + MFB Fusion)  
-          - Participated in **Doctor Answer 2.0** medical AI project  
+          - 화상 Segmentation, Digital Human, Emotion Classification 연구  
+          - Whisper + VITS2 기반 음성·TTS 모델 설계  
+          - Doctor Answer 2.0 참여 (전립선 초음파 진단 보조모델)
 
-      - layout: center
-        title: Hanyang University, Lab of Code & Communication
-        sub_title: Graduate Research Assistant (M.S. Candidate)
-        caption: July 2019 – February 2022
-        link: https://hanyang.ac.kr
+      - layout: left
+        title: 한양대학교 부호 및 통신 연구실
+        sub_title: 석사 연구원
+        caption: 2019.07 – 2022.02
         quote: >
-          Deep Learning-based Radar CFAR and Ghost Target Detection
+          딥러닝 기반 CFAR 알고리즘 및 멀티모달 탐지 연구
         description: |
-          - Designed deep-learning CFAR with false alarm control loss  
-          - Constructed multi-modal fusion pipeline with **nuScenes dataset**  
-          - Presented papers at **KICS** and **IEEE IC-NIDC**
+          - Radar Ghost Target Detection / CFAR Loss 연구  
+          - nuScenes 멀티모달 학습 파이프라인 구축  
 
   - title: Education
     layout: list
     content:
-      - layout: center
-        title: Hanyang University
-        sub_title: M.S. in Convergence Electronic Engineering
+      - layout: left
+        title: 한양대학교
+        sub_title: 석사, 융합전자공학과
         caption: 2020 – 2022
         quote: >
-          Thesis: “Deep Learning-based CFAR with False Alarm Rate Control Loss”
-
-      - layout: center
-        title: Hanyang University
-        sub_title: B.S. in Convergence Electronic Engineering
+          논문: 딥러닝 기반 CFAR 알고리즘의 오경보 확률 조절을 위한 손실함수 설계
+      - layout: left
+        title: 한양대학교
+        sub_title: 학사, 융합전자공학부
         caption: 2013 – 2020
-
-      - layout: center
-        title: Sejong Science High School
-        sub_title: Science Program Graduate
+      - layout: left
+        title: 세종과학고등학교
+        sub_title: 졸업
         caption: 2011 – 2013
 
   - title: A Little More About Me
     layout: text
     content: |
-      Outside of AI and engineering, I enjoy:  
-      - Japanese travel & photography  
-      - Collecting retro keyboards  
-      - Building personal GUIs and automation tools  
-      - Sharing open-source research & documentation projects
-
+      - 일본 여행과 지역 음식 탐방을 좋아합니다.  
+      - PyQt5 기반 툴 개발, Streamlit 데모 제작 등 개인 프로젝트를 즐깁니다.  
+      - Dinov2, YOLOv12, TensorRT, Jetson 최적화에 관심이 많습니다.  
+      - 업무 외에는 레트로 키보드 수집과 라멘/사케 취미를 갖고 있습니다.
 
 # Footer
-footer_show_references: true
-# references_title: References on request (Override references text)
+footer_show_references: false
 
 # Build settings
-# theme: modern-resume-theme (Use this is you are hosting your resume yourself)
-# remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
+remote_theme: sproogen/modern-resume-theme
 
 sass:
   sass_dir: _sass
@@ -213,16 +169,3 @@ sass:
 
 plugins:
  - jekyll-seo-tag
-
-exclude : [
-  "Gemfile",
-  "Gemfile.lock",
-  "node_modules",
-  "vendor/bundle/",
-  "vendor/cache/",
-  "vendor/gems/",
-  "vendor/ruby/",
-  "lib/",
-  "scripts/",
-  "docker-compose.yml",
-  ]
