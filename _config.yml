@@ -40,7 +40,7 @@ content:
             url: "https://github.com/fly4hyun/doll-image-search"
         quote: "Dinov2 + FAISS 기반 이미지 검색 및 PyQt5 라벨링 툴 구축"
         description: |
-          <div align="center" style="max-width:800px; margin:0 auto; text-align:center;">
+          <div align="center" style="max-width:800px; margin:0 auto; text-align:center; font-size:16px; line-height:1.6;">
             인형 디자인 및 부품 DB 구축을 위한 이미지 검색 시스템 개발<br>
             - Dinov2 + FAISS 기반 이미지 검색 알고리즘 구현<br>
             - PyQt5 라벨링 툴 및 Streamlit 데모 UI 개발
