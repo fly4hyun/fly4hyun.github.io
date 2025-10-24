@@ -20,11 +20,13 @@ linkedin_username: "현희-이-612511290"
 # About Section
 about_profile_image: images/profile.jpg
 about_content: |
-  Applied AI Research Engineer로서 Vision, Document, Multimodal 분야의 AI 시스템을 연구·개발해왔습니다.  
-  실제 서비스에 적용 가능한 모델 설계와 데이터 파이프라인 구축에 강점을 가지고 있으며,  
-  PyTorch, TensorRT, Dinov2, FAISS 등을 활용한 효율적인 비전·문서 AI 개발 경험을 보유하고 있습니다.
+  Applied AI Research Engineer로서 Vision과 Document 분야를 중심으로 실제 서비스에 적용 가능한 AI 시스템을 연구·개발해왔습니다.  
+  OKESTRO AGI에서 인형 이미지 검색, 문서 QA 자동화, 하수관로 결함탐지, 지능형 CCTV 등 다양한 비전·문서 기반 프로젝트를 총괄하며  
+  모델 설계부터 데이터 파이프라인, Edge Device 최적화까지 전 과정을 직접 담당했습니다.  
+  PyTorch, TensorRT, Dinov2, FAISS 등을 활용한 대규모 비전·문서 AI 시스템 개발 경험을 보유하고 있으며,  
+  아크릴(주)에서는 의료영상·음성·텍스트 융합형 멀티모달 감정 분석 모델 및 디지털 휴먼 기술 연구를 수행했습니다.  
 
-  주요 분야: Object Detection · Document QA · Multimodal Learning · Model Optimization
+  주요 분야: Object Detection · Document QA · Image Retrieval · Model Optimization · Multimodal Learning
 
 content:
 
@@ -279,9 +281,11 @@ content:
         title: "통일부 2023 북한정보 인공지능빅데이터 분석모델 운영 및 유지보수"
         quote: "2023.07-2023.07"
         description: |
+          <div align="center" style="max-width:800px; margin:0 auto; text-align:center; font-size:18px; line-height:1.6;">
             통일부 북한정보 분석모델의 성능 평가 및 개선 방향 제시<br>
             - 이미지 기반 분석모델 운영 현황 검증 기존 보고서 대비 성능 비교<br>
             - 문제점 분석 및 개선 방안 제안 보고서 작성<br><br>
+          </div>
 
       - layout: top-middle
         title: "음성-텍스트-이미지 기반 멀티모달 감정 분류 모델 개발"
