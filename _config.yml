@@ -269,14 +269,16 @@ content:
         description: |
           학위논문
           - 딥러닝 기반 CFAR 알고리즘의 오경보 확률 조절을 위한 손실함수 설계<br>
-          
+
           참여 프로젝트/과제
           - 차세대시스템반도체 설계 전문인력양성사업 [(사) 한국반도체산업협회] (2021.03-2022.02)
             - nuScenes 데이터셋 전처리 및 멀티모달 학습 파이프라인 구축
             - Range-Doppler 스펙트럼 기반 CNN-RNN CFAR 모델 설계 및 성능 검증
+            - https://github.com/fly4hyun/DataProcessing-Radar_Lidar_Image
           - 다양한 형태의 latent space상에서의 효과적인 feature 분리를 통한 심층 신경망 성능 향상 연구 [(재) 한국연구재단] (2021.03-2022.02)
             - 생성 모델을 통한 이미지 간 유사도 측정 방법 연구
             - Multi-hot encoding 기법을 통한 모델 강인성 향상 연구
+            - https://github.com/fly4hyun/Noise_and_FGSM
           - 지능형반도체전문인력양성사업 [(사) 한국반도체산업협회] (2020.03-2021.02)
             - 딥러닝 기반 CFAR 오경보 확률 조절 손실함수 연구
           - (SS-25) 통신신호 부가 정보 분석 기술 연구 [국방과학연구소] (2020.01-2020.12)
