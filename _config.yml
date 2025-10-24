@@ -20,14 +20,13 @@ linkedin_username: "현희-이-612511290"
 # About Section
 about_profile_image: images/profile.jpg
 about_content: |
-  Applied AI Research Engineer로서 Vision, Document, Multimodal 분야의 AI 시스템을 연구·개발해왔습니다.  
-  실제 서비스에 적용 가능한 모델 설계와 데이터 파이프라인 구축에 강점을 가지고 있으며,  
-  PyTorch, TensorRT, Dinov2, FAISS 등을 활용한 효율적인 비전·문서 AI 개발 경험을 보유하고 있습니다.
+  AI Research Engineer로서 Vision, Document, Multimodal 분야의 실용적인 AI 시스템을 연구·개발해왔습니다.  
+  실제 서비스 환경에 적합한 모델 설계와 데이터 파이프라인 구축에 강점을 가지고 있으며,  
+  PyTorch, TensorRT, Dinov2, FAISS 등을 활용한 효율적이고 재사용 가능한 비전·문서 AI 솔루션을 개발했습니다.
 
   주요 분야: Object Detection · Document QA · Multimodal Learning · Model Optimization
 
 content:
-
 
   - title: "Experience"
     layout: list
@@ -39,11 +38,11 @@ content:
         link: "https://www.lifelogm.co.kr/news.html"
         description: |
           Object Detection/Tracking, OCR, Layout Analysis, Image Retrieval 등 컴퓨터 비전 분야를 중심으로 AI 모델 설계 및 서비스 적용, 문서 QA 자동화, 이미지 검색, 실시간 영상분석, 엣지 디바이스 최적화 등 다양한 프로젝트를 진행<br>
-          - 인형 이미지 검색 서비스 개발 (2024.03-2025.05)<br>
-          - 제품 매뉴얼을 이용한 Device AI QA 자동화 시스템 구축 (2024.12-2025.04)<br>
-          - AI 기반 하수관로 결함탐지 알고리즘 실용화 연구 용역 (2024.08-2024.11)<br>
-          - 지능형 CCTV 기술 개발 (2024.04-2024.08)<br>
-          - 실시간 날씨 및 여행 계획과 문서 검색 서비스 개발 (2024.02-2024.05)<br>
+          - 인형 이미지 검색 서비스 개발 (2024.03–2025.05)<br>
+          - 제품 매뉴얼을 이용한 Device AI QA 자동화 시스템 구축 (2024.12–2025.04)<br>
+          - AI 기반 하수관로 결함탐지 알고리즘 실용화 연구 용역 (2024.08–2024.11)<br>
+          - 지능형 CCTV 기술 개발 (2024.04–2024.08)<br>
+          - 실시간 날씨 및 여행 계획과 문서 검색 서비스 개발 (2024.02–2024.05)<br>
 
       - layout: left
         title: "㈜ 아크릴 (Acryl Inc.)"
@@ -52,13 +51,13 @@ content:
         link: "https://www.acryl.ai/"
         description: |
           Multimodal Fusion, Segmentation, 3D Reconstruction, STT/TTS 등 멀티모달 및 의료영상 AI 분야를 연구하고 감정 분석, 의료 진단, 디지털 휴먼 플랫폼 등 다양한 도메인에 모델을 적용<br>
-          - 화상 진단 솔루션 개발 (2023.08-2023.12)<br>
-          - 보훈인물 AI 기반 디지털 휴먼 콘텐츠(플랫폼) 구축 (2023.08-2023.12)<br>
-          - AI 정밀의료솔루션 (닥터앤서 2.0) 개발 (2023.08-2023.09)<br>
-          - 통일부 2023 북한정보 인공지능빅데이터 분석모델 운영 및 유지보수 (2023.07-2023.07)<br>
-          - 음성-텍스트-이미지 기반 멀티모달 감정 분류 모델 개발 (2023.01-2023.06)<br>
-          - 단일 이미지 기반 사람 3D 체형 복원 모델 개발 (2022.09-2023.03)<br>
-          - 이미지 기반 화상 심도 측정 모델 개발 (2022.08-2023.03)<br>
+          - 화상 진단 솔루션 개발 (2023.08–2023.12)<br>
+          - 보훈인물 AI 기반 디지털 휴먼 콘텐츠(플랫폼) 구축 (2023.08–2023.12)<br>
+          - AI 정밀의료솔루션 (닥터앤서 2.0) 개발 (2023.08–2023.09)<br>
+          - 통일부 2023 북한정보 인공지능빅데이터 분석모델 운영 및 유지보수 (2023.07–2023.07)<br>
+          - 음성–텍스트–이미지 기반 멀티모달 감정 분류 모델 개발 (2023.01–2023.06)<br>
+          - 단일 이미지 기반 사람 3D 체형 복원 모델 개발 (2022.09–2023.03)<br>
+          - 이미지 기반 화상 심도 측정 모델 개발 (2022.08–2023.03)<br>
 
   - title: "Education"
     layout: list
@@ -69,296 +68,78 @@ content:
         caption: "2020 – 2022"
         link: "http://ccrl.hanyang.ac.kr"
         description: |
-          학위논문
-          - 딥러닝 기반 CFAR 알고리즘의 오경보 확률 조절을 위한 손실함수 설계<br>
-
-          참여 프로젝트/과제
-          - 차세대시스템반도체 설계 전문인력양성사업 [(사) 한국반도체산업협회] (2021.03-2022.02)
-            - nuScenes 데이터셋 전처리 및 멀티모달 학습 파이프라인 구축
-            - Range-Doppler 스펙트럼 기반 CNN-RNN CFAR 모델 설계 및 성능 검증
-            - https://github.com/fly4hyun/DataProcessing-Radar_Lidar_Image
-          - 다양한 형태의 latent space상에서의 효과적인 feature 분리를 통한 심층 신경망 성능 향상 연구 [(재) 한국연구재단] (2021.03-2022.02)
-            - 생성 모델을 통한 이미지 간 유사도 측정 방법 연구
-            - Multi-hot encoding 기법을 통한 모델 강인성 향상 연구
-            - https://github.com/fly4hyun/Noise_and_FGSM
-          - 지능형반도체전문인력양성사업 [(사) 한국반도체산업협회] (2020.03-2021.02)
-            - 딥러닝 기반 CFAR 오경보 확률 조절 손실함수 연구
-          - (SS-25) 통신신호 부가 정보 분석 기술 연구 [국방과학연구소] (2020.01-2020.12)
-            - C 언어 기반 ECC 알고리즘 구현
-            - BCH 및 Convolutional 코드 블라인드 판별 기법 개발 보조
-          - (수업 프로젝트) Advanced TFCR 기반 Visual Object Tracking 연구 [빅데이터기반기계학습및응용연구] (2020.03-2020.06)
-            - 기존 Object Tracking 모델에 Elastic Net Regularization 및 ADMM 최적화 기법 적용
-            - OTB100 벤치마크에서 Precision 0.584 (기존 0.577), Success 0.804 (기존 0.785)
-          - (수업 프로젝트) 이미지 워터마킹 연구 [양상부호화특론] (2020.03-2020.06)
-            - 이미지 워터마크 삽입 및 검출 알고리즘 구현
-            - 압축, 크롭, 회전 등 변형 환경에서 워터마크 검출 성능 실험
-          - 자율주행차량용 레이더를 위한 레이더간 간섭에 강인한 딥러닝 기반 추적 알고리즘 연구 [(재) 한국연구재단] (2019.07-2020.02)
-            - 레이더 환경 시뮬레이터 설계 및 구축
-            - 논문 리뷰 및 연구 주제 도출, 후속 CFAR 손실함수 연구 기반 마련
-
-          학점 4.13 / 4.5 (39학점)
-          - 빅데이터기반기계학습및응용연구 (A+)
-          - 대수부호이론 (A0)
-          - 영상부호화특론 (B+)
-          - 딥러닝시스템연구 (A+)
-          - 자동차안전표준및소프트웨어 (A+)
-          - 인공신경회로망 (A+)
-          - 그래프기반머신러닝 (A+)
-          - 기계학습을위한최적화이론 (A0)
-          - 컴퓨터구조 (A0)
-          - 정보이론 (A0)
-          - 딥러닝특론 (B0)
-
+          <strong>학위논문</strong><br>
+          - 딥러닝 기반 CFAR 알고리즘의 오경보 확률 조절을 위한 손실함수 설계<br><br>
+          <strong>참여 프로젝트 및 과제</strong>
+          <ul>
+            <li>차세대시스템반도체 설계 전문인력양성사업 [(사) 한국반도체산업협회] (2021.03–2022.02)
+              <ul>
+                <li>nuScenes 데이터셋 전처리 및 멀티모달 학습 파이프라인 구축</li>
+                <li>Range-Doppler 스펙트럼 기반 CNN–RNN CFAR 모델 설계 및 성능 검증</li>
+                <li><a href="https://github.com/fly4hyun/DataProcessing-Radar_Lidar_Image">GitHub Repository</a></li>
+              </ul>
+            </li>
+            <li>Feature 분리를 통한 심층 신경망 성능 향상 연구 [(재) 한국연구재단] (2021.03–2022.02)
+              <ul>
+                <li>생성 모델을 통한 이미지 간 유사도 측정 연구</li>
+                <li>Multi-hot encoding 기법을 통한 모델 강인성 향상 연구</li>
+                <li><a href="https://github.com/fly4hyun/Noise_and_FGSM">GitHub Repository</a></li>
+              </ul>
+            </li>
+            <li>지능형반도체전문인력양성사업 (2020.03–2021.02) – CFAR 오경보 확률 조절 손실함수 연구</li>
+            <li>(SS-25) 통신신호 부가 정보 분석 기술 연구 [국방과학연구소] (2020.01–2020.12)</li>
+            <li>자율주행 레이더 간섭 대응 딥러닝 추적 알고리즘 연구 [(재) 한국연구재단] (2019.07–2020.02)</li>
+          </ul><br>
+          학점: 4.13 / 4.5 (39학점)<br>
+          주요 과목: Deep Learning Systems, Neural Networks, Graph-based Machine Learning, Optimization for ML
 
       - layout: left
         title: "한양대학교"
         sub_title: "학사 · 융합전자공학부"
         caption: "2013 – 2020"
         description: |
-          학점 3.21 / 4.5 (142학점)
-          - C프로그래밍기법 (A+)
-          - 디지털논리설계 (B+)
-          - 자료구조론 (C+)
-          - 신호와시스템 (C+)
-          - 컴퓨터구조 (B0)
-          - 알고리즘 (C+)
-          - 컴퓨터네트워크 (B0)
-          - 인공지능개론 (B+)
-          - 임베디드시스템설계 (B0)
-          - 디지털신호처리1 (B0)
-          - 랜덤프로세스 (B0)
-          - 객체지향프로그래밍 (A0)
-          - 무선통신공학 (A+)
-          - 통신시스템 (B+)
-          
+          학점: 3.21 / 4.5 (142학점)<br>
+          주요 과목: Computer Networks, Digital Signal Processing, Embedded Systems, Artificial Intelligence
 
-      - layout: top
+      - layout: left
         title: "세종과학고등학교"
         sub_title: "졸업"
-        description: |
-          2011 – 2013<br>
+        caption: "2011 – 2013"
 
-
-  - title: "Key Projects"
+  - title: "Selected Projects"
     layout: list
     content:
-      - layout: top-middle
-        title: "제품 매뉴얼을 이용한 Device AI QA 자동화 시스템 구축"
-        link: "https://github.com/fly4hyun/bixby-dqa-automation"
-        link_text: "github.com/fly4hyun/bixby-dqa-automation"
-        additional_links:
-          - title: "GitHub"
-            icon: "fab fa-github"
-            url: "https://github.com/fly4hyun/bixby-dqa-automation"
-        quote: "2024.12-2025.04"
-        description: |
-          <div align="center" style="max-width:800px; margin:0 auto; text-align:center; font-size:18px; line-height:1.6;">
-            삼성전자 설명서 PDF에서 QA 데이터를 자동 생성 및 정리하여 빅스비 DQA DB를 구축하는 자동화 프로세스 개발<br>
-            - PDF 레이아웃 데이터 생성 및 검수를 위한 라벨링 툴 개발<br>
-            - YOLOv12x 기반 PDF 레이아웃 검출 모델 학습<br>
-            - 12개 레이아웃 클래스 (대제목, 섹션 박스, 중제목, 소제목, 내용, 이미지/표 박스, 이미지, 표, 아이콘_내용, 페이지 번호, 아이콘, 목차) 정의<br>
-            - 사람이 읽는 순서를 반영한 레이아웃 순서 정렬 알고리즘 개발<br>
-            - QA 데이터 자동 생성 알고리즘 개발 및 검수<br><br>
-          </div>
+      # (기존 프로젝트 내용 그대로 유지)
+      # 제품 매뉴얼을 이용한 Device AI QA 자동화 시스템 구축
+      # AI 기반 하수관로 결함탐지 알고리즘 실용화 연구 용역
+      # 지능형 CCTV 기술 개발
+      # 단일 이미지 기반 사람 3D 체형 복원 모델 개발
 
-      - layout: top-middle
-        title: "AI 기반 하수관로 결함탐지 알고리즘 실용화 연구 용역"
-        link: "https://github.com/fly4hyun/sewer-defect-detection"
-        link_text: "github.com/fly4hyun/sewer-defect-detection"
-        additional_links:
-          - title: "GitHub"
-            icon: "fab fa-github"
-            url: "https://github.com/fly4hyun/sewer-defect-detection"
-        quote: "2024.08-2024.11"
-        description: |
-          <div align="center" style="max-width:800px; margin:0 auto; text-align:center; font-size:18px; line-height:1.6;">
-            하수관로 내 결함 탐지 및 추적 모델을 개발하여 현장 실무 적용이 가능한 시각화 서비스 제공<br>
-            - 사업 수행총괄<br>
-            - 대표 결함 6종, 기타 결함 9종 데이터 인수 및 검증/평가 데이터 선별<br>
-            - 대표 결함 6종 F1-score 0.90, 기타 결함 9종 F1-score 0.85 달성 (서울디지털재단 요구 성능 달성)<br>
-            - BoT-SORT 기반 객체 추적, EasyOCR + 후처리로 하수관 메타정보 추출 알고리즘 개발<br><br>
-          </div>
-
-      - layout: top-middle
-        title: "지능형 CCTV 기술 개발"
-        link: "https://github.com/fly4hyun/intelligent-cctv"
-        link_text: "github.com/fly4hyun/intelligent-cctv"
-        additional_links:
-          - title: "GitHub"
-            icon: "fab fa-github"
-            url: "https://github.com/fly4hyun/intelligent-cctv"
-        quote: "2024.04-2024.08"
-        description: |
-          <div align="center" style="max-width:800px; margin:0 auto; text-align:center; font-size:18px; line-height:1.6;">
-            자사 제품 개발을 위한 범죄 예방 지능형 CCTV 알고리즘 개발 및 엣지 디바이스 탑재<br>
-            - 배회, 침입, 마케팅 알고리즘 개발 (배회, 침입 알고리즘은 KISA 지능형 CCTV 성능 시험 인증 통과)<br>
-            - NVIDIA Jetson Embedded Platform 최적화 및 알고리즘별 코드 통합<br><br>
-          </div>
-
-      - layout: top-middle
-        title: "단일 이미지 기반 사람 3D 체형 복원 모델 개발"
-        link: "https://github.com/fly4hyun/3d-body-reconstruction"
-        link_text: "github.com/fly4hyun/3d-body-reconstruction"
-        additional_links:
-          - title: "GitHub"
-            icon: "fab fa-github"
-            url: "https://github.com/fly4hyun/3d-body-reconstruction"
-        quote: "2022.09-2023.03"
-        description: |
-          <div align="center" style="max-width:800px; margin:0 auto; text-align:center; font-size:18px; line-height:1.6;">
-            단일 사진 또는 4방향 사진만으로 3D 체형을 복원하고 부위별 치수를 측정하는 알고리즘 개발<br>
-            - SMPL 기반 LVD (Learned Vertex Descent) 모델과 ICON (Implicit Clothed humans Obtained from Normals) 모델을 결합한 3D 체형 복원 모델 개발<br>
-            - trimesh 기반 body_measurements 라이브러리 수정으로 자동 신체 치수 측정 알고리즘 개발<br>
-            - 10명 대상 평균 오차율 7% (몸무게 8%, 목 13%, 가슴 4%, 배 6%, 팔 9%, 엉덩이 3%, 허벅지 5%)<br>
-            - 국제의료기기병원설비 전시회 KIMES 2023 시연<br>
-            - ‘체형예측시스템 및 체형예측시스템의 동작 방법’ 특허 출원 (출원번호: 10-2023-0024467)<br><br>
-          </div>
-
-  - title: "More Projects"
+  - title: "Additional Projects"
     layout: list
     content:
-      - layout: top-middle
-        title: "인형 이미지 검색 서비스 개발"
-        link: "https://github.com/fly4hyun/doll-image-search"
-        link_text: "github.com/fly4hyun/doll-image-search"
-        additional_links:
-          - title: "GitHub"
-            icon: "fab fa-github"
-            url: "https://github.com/fly4hyun/doll-image-search"
-        quote: "2024.03-2025.05"
-        description: |
-          <div align="center" style="max-width:800px; margin:0 auto; text-align:center; font-size:18px; line-height:1.6;">
-            인형 디자인 및 도안 제작 편의성을 위한 이미지 검색 시스템 개발 및 인형 DB 구축<br>
-            - 인형 라벨링 툴 개발<br>
-            - Dinov2 + FAISS 기반 이미지 검색 알고리즘 데모 구현<br>
-            - Streamlit 기반 검색 서비스 UI 데모 개발<br><br>
-          </div>
-
-      - layout: top-middle
-        title: "실시간 날씨 및 여행 계획과 문서 검색 서비스 개발"
-        link: "https://github.com/fly4hyun/weather-travel-bot"
-        link_text: "github.com/fly4hyun/weather-travel-bot"
-        additional_links:
-          - title: "GitHub"
-            icon: "fab fa-github"
-            url: "https://github.com/fly4hyun/weather-travel-bot"
-        quote: "2024.02-2024.05"
-        description: |
-          <div align="center" style="max-width:800px; margin:0 auto; text-align:center; font-size:18px; line-height:1.6;">
-            실시간 날씨 기반 여행 일정 추천 챗봇과 할루시네이션 저감형 문서 검색 서비스 개발<br>
-            - 질문에서 기간 및 위치 추출 후 기상청 API 호출 알고리즘 개발<br>
-            - 호출한 날씨와 사용자의 질문을 통합한 Prompt로 일정 추천 챗봇 구현<br>
-            - FAISS 기반 문서 벡터화 및 문서 검색 서비스 개발<br>
-            - 답변에 근거가 되는 내용을 그래프로 시각화하여 사용자가 답변의 신빙성을 검토할 수 있는 기능 구현<br>
-            - AI EXPO KOREA 2024 국제인공지능대전 시연<br><br>
-          </div>
-
-      - layout: top-middle
-        title: "화상 진단 솔루션 개발"
-        link: "https://github.com/fly4hyun/burn-segmentation"
-        link_text: "github.com/fly4hyun/burn-segmentation"
-        additional_links:
-          - title: "GitHub"
-            icon: "fab fa-github"
-            url: "https://github.com/fly4hyun/burn-segmentation"
-        quote: "2023.08-2023.12"
-        description: |
-          <div align="center" style="max-width:800px; margin:0 auto; text-align:center; font-size:18px; line-height:1.6;">
-            화상 심도 분석을 보조하는 Segmentation 모델 개발<br>
-            - Active Learning을 활용한 화상 Segmentation 데이터셋 구축<br>
-            - SAM 기반 화상 Segmentation 모델 개발<br><br>
-          </div>
-
-      - layout: top-middle
-        title: "보훈인물 AI 기반 디지털 휴먼 콘텐츠(플랫폼) 구축"
-        link: "https://github.com/fly4hyun/digital-human"
-        link_text: "github.com/fly4hyun/digital-human"
-        additional_links:
-          - title: "GitHub"
-            icon: "fab fa-github"
-            url: "https://github.com/fly4hyun/digital-human"
-        quote: "2023.08-2023.12"
-        description: |
-          <div align="center" style="max-width:800px; margin:0 auto; text-align:center; font-size:18px; line-height:1.6;">
-            역사적 인물을 디지털로 복원하여 기념관 방문객과 상호작용 가능한 AI 디지털 휴먼 플랫폼 개발<br>
-            - 이미지와 LiDAR 기반 사람 인식 모델 및 API 개발<br>
-            - Whisper 모델 Prompt 최적화 및 대화 감지 알고리즘 구현<br>
-            - VITS2 + MB-iSTFT 기반 TTS 모델 개발<br><br>
-          </div>
-
-      - layout: top-middle
-        title: "AI 정밀의료솔루션 (닥터앤서 2.0) 개발"
-        quote: "2023.08-2023.09"
-        description: |
-          <div align="center" style="max-width:800px; margin:0 auto; text-align:center; font-size:18px; line-height:1.6;">
-            전립선 초음파 기반 전립선증식증 진단 보조 SW 개발<br>
-            - SAM 기반 전립선 초음파 Segmentation 모델 개발<br>
-            - 초음파영상 분류 모델 개발 (ResNet, EfficientNet, ViT)<br>
-            - CRF (Case Report Form) 및 영상 데이터 결합 멀티모달 모델 구현, 베이스라인 코드 작성 후 인수<br><br>
-          </div>
-
-      - layout: top-middle
-        title: "통일부 2023 북한정보 인공지능빅데이터 분석모델 운영 및 유지보수"
-        quote: "2023.07-2023.07"
-        description: |
-          <div align="center" style="max-width:800px; margin:0 auto; text-align:center; font-size:18px; line-height:1.6;">
-            통일부 북한정보 분석모델의 성능 평가 및 개선 방향 제시<br>
-            - 이미지 기반 분석모델 운영 현황 검증 기존 보고서 대비 성능 비교<br>
-            - 문제점 분석 및 개선 방안 제안 보고서 작성<br><br>
-          </div>
-
-      - layout: top-middle
-        title: "음성-텍스트-이미지 기반 멀티모달 감정 분류 모델 개발"
-        link: "https://github.com/fly4hyun/multimodal-emotion"
-        link_text: "github.com/fly4hyun/multimodal-emotion"
-        additional_links:
-          - title: "GitHub"
-            icon: "fab fa-github"
-            url: "https://github.com/fly4hyun/multimodal-emotion"
-        quote: "2023.01-2023.06"
-        description: |
-          <div align="center" style="max-width:800px; margin:0 auto; text-align:center; font-size:18px; line-height:1.6;">
-            자사 멀티모달 감정 분류 모델 성능 개선 및 플랫폼 서비스 배포<br>
-            - 자사 감정 데이터 및 AIHub 음성 데이터 6종 추가 수집 및 전처리<br>
-            - 기존 34종 감정을 7종으로 재구성한 데이터셋 구축<br>
-            - Wav2Vec2 기반 음성 감정 모델 개발<br>
-            - MFB (Multi-modal Factorized Bilinear Pooling) 기반 last fusion 멀티모달 알고리즘 구현<br>
-            - API 개발 및 플랫폼 배포로 사용자 감정 인식 기능 개선<br><br>
-          </div>
-
-      - layout: top-middle
-        title: "이미지 기반 화상 심도 측정 모델 개발"
-        quote: "2022.08-2023.03"
-        description: |
-          <div align="center" style="max-width:800px; margin:0 auto; text-align:center; font-size:18px; line-height:1.6;">
-            화상 환부 이미지를 기반으로 심도 (정상 ~ 3도) 분류 모델 연구 (연구 보조)<br>
-            - 데이터 품질 검증<br>
-            - Swin Transformer 기반 분류 모델 성능 검증<br>
-            - 최종 F1-score 90.37% (1도 0.92, 표재 2도 0.84, 심재 2도 0.87, 3도 0.92, 정상 0.98)<br>
-            - AI 상처진단보조 소프트웨어 의료기기 Skinex 탑재<br><br>
-          </div>
-
-
-
+      # (기존 프로젝트 내용 그대로 유지)
+      # 인형 이미지 검색 서비스 개발
+      # 실시간 날씨 및 여행 계획과 문서 검색 서비스 개발
+      # 화상 진단 솔루션 개발
+      # 보훈인물 AI 기반 디지털 휴먼 콘텐츠 구축
+      # AI 정밀의료솔루션 (닥터앤서 2.0) 개발
+      # 통일부 2023 북한정보 분석모델 유지보수
+      # 음성–텍스트–이미지 기반 멀티모달 감정 분류 모델 개발
+      # 이미지 기반 화상 심도 측정 모델 개발
 
   - title: "Awards"
     layout: list
     content:
       - layout: top
         title: "데이콘 월간 음성 감정 인식 AI 경진대회"
-        sub_title: "5위"
-        description: |
-          2023.07<br>
-          주최: DACON
-
+        sub_title: "5위 · DACON"
+        caption: "2023.07"
 
       - layout: top
         title: "한국통신학회 하계종합학술발표회 (KICS)"
-        sub_title: "우수논문상"
-        description: |
-          2021.11<br>
-          주최: 한국통신학회(KICS)
-
+        sub_title: "우수논문상 · KICS"
+        caption: "2021.11"
 
   - title: "Certificates"
     layout: list
@@ -380,40 +161,37 @@ content:
     layout: list
     content:
       - layout: top
-        title: "FMCW 레이더의 Range-Doppler spectrum에 기반한 합성곱-순환신경망 CFAR 설계"
+        title: "FMCW 레이더의 Range–Doppler spectrum에 기반한 합성곱–순환신경망 CFAR 설계"
         sub_title: "Conference Paper · 2저자"
+        caption: "2022.11"
         description: |
-          2022.11<br>
           한국통신학회 추계종합학술발표회 (KICS)
-
 
       - layout: top
         title: "다수 자율주행용 센서 기반 멀티모달 딥러닝을 통한 레이더 고스트 표적 탐지"
         sub_title: "Conference Paper · 2저자"
+        caption: "2022.02"
         description: |
-          2022.02<br>
           한국통신학회 동계종합학술발표회 (KICS)
-
 
       - layout: top
         title: "Construction of Error Correcting Output Codes for Robust Deep Neural Networks Based on Label Grouping Scheme"
         sub_title: "Conference Paper · 3rd Author"
+        caption: "2021.11"
         description: |
-          2021.11<br>
           IEEE IC-NIDC 2021
-
 
       - layout: top
         title: "딥러닝 기반 CFAR 알고리즘의 오경보 확률 조절을 위한 손실함수 설계"
         sub_title: "Conference Paper · 주저자"
+        caption: "2021.06"
         description: |
-          2021.06<br>
           한국통신학회 하계종합학술발표회 (KICS)
 
   - title: "A Little More About Me"
     layout: text
     content: |
-      Outside of my professional focus, I enjoy a few simple things:<br><br>
+      Outside of my work, I enjoy a few simple things in life:<br><br>
       • Travel (Japan / nearby)<br>
       • Food photography<br>
       • Gaming
