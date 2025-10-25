@@ -160,7 +160,6 @@ content:
             하수관로 내 결함 탐지 및 추적 모델을 개발하여 현장 실무 적용이 가능한 시각화 서비스 제공<br>
           </div>
           <div align="center" style="max-width:800px; margin:0 auto; text-align:left; font-size:18px; line-height:1.6;">
-            • 사업 수행총괄<br>
             • 대표 결함 6종, 기타 결함 9종 데이터 인수 및 검증/평가 데이터 선별<br>
             • 대표 결함 6종 F1-score 0.90, 기타 결함 9종 F1-score 0.85 달성 (서울디지털재단 요구 성능 달성)<br>
             • BoT-SORT 기반 객체 추적, EasyOCR + 후처리로 하수관 메타정보 추출 알고리즘 개발<br>
