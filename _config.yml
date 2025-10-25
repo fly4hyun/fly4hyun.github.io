@@ -132,7 +132,7 @@ content:
             url: "https://github.com/fly4hyun/document-dqa-automation"
         quote: "2024.12-2025.04"
         description: |
-          <div align="center" style="max-width:800px; margin:0 auto; text-align:center; font-size:18px; line-height:1.6;">
+          <div align="center" style="max-width:800px; margin:0 auto; text-align:left; font-size:18px; line-height:1.6;">
             삼성전자 설명서 PDF에서 QA 데이터를 자동 생성 및 정리하여 빅스비 DQA DB를 구축하는 자동화 프로세스 개발<br>
             - PDF 레이아웃 데이터 생성 및 검수를 위한 라벨링 툴 개발<br>
             - YOLOv12x 기반 PDF 레이아웃 검출 모델 학습<br>
