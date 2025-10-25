@@ -132,7 +132,7 @@ content:
             url: "https://github.com/fly4hyun/document-dqa-automation"
         quote: "2024.12-2025.04"
         description: |
-          <div align="center" style="max-width:1000px; margin:0 auto; text-align:center; font-size:20px; line-height:1.6;">
+          <div align="center" style="max-width:1000px; margin:0 auto; text-align:center; font-size:20px; line-height:1.8;">
             삼성전자 설명서 PDF에서 QA 데이터를 자동 생성 및 정리하여 빅스비 DQA DB를 구축하는 자동화 프로세스 개발<br>
           </div>
           <div align="center" style="max-width:800px; margin:0 auto; text-align:left; font-size:18px; line-height:1.6;">
@@ -153,7 +153,7 @@ content:
             url: "https://github.com/fly4hyun/sewer-defect-detection"
         quote: "2024.08-2024.11"
         description: |
-          <div align="center" style="max-width:1000px; margin:0 auto; text-align:center; font-size:20px; line-height:1.6;">
+          <div align="center" style="max-width:1000px; margin:0 auto; text-align:center; font-size:20px; line-height:1.8;">
             하수관로 내 결함 탐지 및 추적 모델을 개발하여 현장 실무 적용이 가능한 시각화 서비스 제공<br>
           </div>
           <div align="center" style="max-width:800px; margin:0 auto; text-align:left; font-size:18px; line-height:1.6;">
@@ -173,7 +173,7 @@ content:
             url: "https://github.com/fly4hyun/intelligent-cctv"
         quote: "2024.04-2024.08"
         description: |
-          <div align="center" style="max-width:1000px; margin:0 auto; text-align:center; font-size:20px; line-height:1.6;">
+          <div align="center" style="max-width:1000px; margin:0 auto; text-align:center; font-size:20px; line-height:1.8;">
             자사 제품 개발을 위한 범죄 예방 지능형 CCTV 알고리즘 개발 및 엣지 디바이스 탑재<br>
           </div>
           <div align="center" style="max-width:800px; margin:0 auto; text-align:left; font-size:18px; line-height:1.6;">
@@ -191,7 +191,7 @@ content:
             url: "https://github.com/fly4hyun/3d-body-reconstruction"
         quote: "2022.09-2023.03"
         description: |
-          <div align="center" style="max-width:1000px; margin:0 auto; text-align:center; font-size:20px; line-height:1.6;">
+          <div align="center" style="max-width:1000px; margin:0 auto; text-align:center; font-size:20px; line-height:1.8;">
             단일 사진 또는 4방향 사진만으로 3D 체형을 복원하고 부위별 치수를 측정하는 알고리즘 개발<br>
           </div>
           <div align="center" style="max-width:800px; margin:0 auto; text-align:left; font-size:18px; line-height:1.6;">
@@ -215,7 +215,7 @@ content:
             url: "https://github.com/fly4hyun/doll-image-search"
         quote: "2024.03-2025.05"
         description: |
-          <div align="center" style="max-width:1000px; margin:0 auto; text-align:center; font-size:20px; line-height:1.6;">
+          <div align="center" style="max-width:1000px; margin:0 auto; text-align:center; font-size:20px; line-height:1.8;">
             인형 디자인 및 도안 제작 편의성을 위한 이미지 검색 시스템 개발 및 인형 DB 구축<br>
           </div>
           <div align="center" style="max-width:800px; margin:0 auto; text-align:left; font-size:18px; line-height:1.6;">
@@ -234,7 +234,7 @@ content:
             url: "https://github.com/fly4hyun/weather-travel-bot"
         quote: "2024.02-2024.05"
         description: |
-          <div align="center" style="max-width:1000px; margin:0 auto; text-align:center; font-size:20px; line-height:1.6;">
+          <div align="center" style="max-width:1000px; margin:0 auto; text-align:center; font-size:20px; line-height:1.8;">
             실시간 날씨 기반 여행 일정 추천 챗봇과 할루시네이션 저감형 문서 검색 서비스 개발<br>
           </div>
           <div align="center" style="max-width:800px; margin:0 auto; text-align:left; font-size:18px; line-height:1.6;">
@@ -255,7 +255,7 @@ content:
             url: "https://github.com/fly4hyun/burn-segmentation"
         quote: "2023.08-2023.12"
         description: |
-          <div align="center" style="max-width:1000px; margin:0 auto; text-align:center; font-size:20px; line-height:1.6;">
+          <div align="center" style="max-width:1000px; margin:0 auto; text-align:center; font-size:20px; line-height:1.8;">
             화상 심도 분석을 보조하는 Segmentation 모델 개발<br>
           </div>
           <div align="center" style="max-width:800px; margin:0 auto; text-align:left; font-size:18px; line-height:1.6;">
@@ -273,7 +273,7 @@ content:
             url: "https://github.com/fly4hyun/digital-human"
         quote: "2023.08-2023.12"
         description: |
-          <div align="center" style="max-width:1000px; margin:0 auto; text-align:center; font-size:20px; line-height:1.6;">
+          <div align="center" style="max-width:1000px; margin:0 auto; text-align:center; font-size:20px; line-height:1.8;">
             역사적 인물을 디지털로 복원하여 기념관 방문객과 상호작용 가능한 AI 디지털 휴먼 플랫폼 개발<br>
           </div>
           <div align="center" style="max-width:800px; margin:0 auto; text-align:left; font-size:18px; line-height:1.6;">
@@ -286,7 +286,7 @@ content:
         title: "AI 정밀의료솔루션 (닥터앤서 2.0) 개발"
         quote: "2023.08-2023.09"
         description: |
-          <div align="center" style="max-width:1000px; margin:0 auto; text-align:center; font-size:20px; line-height:1.6;">
+          <div align="center" style="max-width:1000px; margin:0 auto; text-align:center; font-size:20px; line-height:1.8;">
             전립선 초음파 기반 전립선증식증 진단 보조 SW 개발<br>
           </div>
           <div align="center" style="max-width:800px; margin:0 auto; text-align:left; font-size:18px; line-height:1.6;">
@@ -299,7 +299,7 @@ content:
         title: "통일부 2023 북한정보 인공지능빅데이터 분석모델 운영 및 유지보수"
         quote: "2023.07-2023.07"
         description: |
-          <div align="center" style="max-width:1000px; margin:0 auto; text-align:center; font-size:20px; line-height:1.6;">
+          <div align="center" style="max-width:1000px; margin:0 auto; text-align:center; font-size:20px; line-height:1.8;">
             통일부 북한정보 분석모델의 성능 평가 및 개선 방향 제시<br>
           </div>
           <div align="center" style="max-width:800px; margin:0 auto; text-align:left; font-size:18px; line-height:1.6;">
@@ -317,7 +317,7 @@ content:
             url: "https://github.com/fly4hyun/multimodal-emotion"
         quote: "2023.01-2023.06"
         description: |
-          <div align="center" style="max-width:1000px; margin:0 auto; text-align:center; font-size:20px; line-height:1.6;">
+          <div align="center" style="max-width:1000px; margin:0 auto; text-align:center; font-size:20px; line-height:1.8;">
             자사 멀티모달 감정 분류 모델 성능 개선 및 플랫폼 서비스 배포<br>
           </div>
           <div align="center" style="max-width:800px; margin:0 auto; text-align:left; font-size:18px; line-height:1.6;">
@@ -332,7 +332,7 @@ content:
         title: "이미지 기반 화상 심도 측정 모델 개발"
         quote: "2022.08-2023.03"
         description: |
-          <div align="center" style="max-width:1000px; margin:0 auto; text-align:center; font-size:20px; line-height:1.6;">
+          <div align="center" style="max-width:1000px; margin:0 auto; text-align:center; font-size:20px; line-height:1.8;">
             화상 환부 이미지를 기반으로 심도 (정상 ~ 3도) 분류 모델 연구 (연구 보조)<br>
           </div>
           <div align="center" style="max-width:800px; margin:0 auto; text-align:left; font-size:18px; line-height:1.6;">
