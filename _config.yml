@@ -143,7 +143,7 @@ content:
             • 12개 레이아웃 클래스 (대제목, 섹션 박스, 중제목, 소제목, 내용, 이미지/표 박스, 이미지, 표, 아이콘_내용, 페이지 번호, 아이콘, 목차) 정의<br>
             • 사람이 읽는 순서를 반영한 레이아웃 순서 정렬 알고리즘 개발<br>
             • QA 데이터 자동 생성 알고리즘 개발 및 검수<br>
-            ※ Role: PDF 라벨링·레이아웃 검출·정렬 및 QA 생성 파트를 직접 구현<br>
+            ※ Role: PDF 라벨링, 레이아웃 검출, 정렬 및 QA 생성 파트 구현<br>
           </div>
 
       - layout: top-middle
@@ -164,7 +164,7 @@ content:
             • 대표 결함 6종, 기타 결함 9종 데이터 인수 및 검증/평가 데이터 선별<br>
             • 대표 결함 6종 F1-score 0.90, 기타 결함 9종 F1-score 0.85 달성 (서울디지털재단 요구 성능 달성)<br>
             • BoT-SORT 기반 객체 추적, EasyOCR + 후처리로 하수관 메타정보 추출 알고리즘 개발<br>
-            ※ Role: 데이터 선별·탐지/추적·OCR·API 연계까지 처리 파트를 구현<br>
+            ※ Role: 데이터 선별, 탐지/추적, OCR 및 API 구현 수행<br>
           </div>
 
       - layout: top-middle
@@ -183,7 +183,7 @@ content:
           <div align="center" style="max-width:800px; margin:0 auto; text-align:left; font-size:18px; line-height:1.6;">
             • 배회, 침입, 마케팅 알고리즘 개발 (배회, 침입 알고리즘은 KISA 지능형 CCTV 성능 시험 인증 통과)<br>
             • NVIDIA Jetson Embedded Platform 최적화 및 알고리즘별 코드 통합<br>
-            ※ Role: 배회/침입 모델 구현 및 엣지 실험과 인증 전 검증 파트 수행<br>
+            ※ Role: 배회/침입 모델 구현 및 엣지 디바이스 실험과 인증 전 검증 수행<br>
           </div>
 
       - layout: top-middle
@@ -228,7 +228,7 @@ content:
             • 인형 라벨링 툴 개발<br>
             • Dinov2 + FAISS 기반 이미지 검색 알고리즘 데모 구현<br>
             • Streamlit 기반 검색 서비스 UI 데모 개발<br>
-            ※ Role: 라벨링 툴·검색 알고리즘·데모 UI 구현 전체를 직접 개발<br>
+            ※ Role: 라벨링 툴, 검색 알고리즘, 데모 UI 구현 개발<br>
           </div>
 
       - layout: top-middle
@@ -289,7 +289,7 @@ content:
             • 이미지와 LiDAR 기반 사람 인식 모델 및 API 개발<br>
             • Whisper 모델 Prompt 최적화 및 대화 감지 알고리즘 구현<br>
             • VITS2 + MB-iSTFT 기반 TTS 모델 개발<br>
-            ※ Role: 사람인식·STT API 구현 및 TTS 실험 공동 수행<br>
+            ※ Role: 사람인식, STT API 구현 및 TTS 실험 공동 수행<br>
           </div>
 
       - layout: top-middle
@@ -338,7 +338,7 @@ content:
             • Wav2Vec2 기반 음성 감정 모델 개발<br>
             • MFB (Multi-modal Factorized Bilinear Pooling) 기반 last fusion 멀티모달 알고리즘 구현<br>
             • API 개발 및 플랫폼 배포로 사용자 감정 인식 기능 개선<br>
-            ※ Role: 음성 데이터 구축·모델 학습 및 멀티모달 통합 모델 구현 수행<br>
+            ※ Role: 음성 데이터 구축, 모델 학습 및 멀티모달 통합 모델 구현 수행<br>
           </div>
 
       - layout: top-middle
