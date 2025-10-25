@@ -142,8 +142,8 @@ content:
             • YOLOv12x 기반 PDF 레이아웃 검출 모델 학습<br>
             • 12개 레이아웃 클래스 (대제목, 섹션 박스, 중제목, 소제목, 내용, 이미지/표 박스, 이미지, 표, 아이콘_내용, 페이지 번호, 아이콘, 목차) 정의<br>
             • 사람이 읽는 순서를 반영한 레이아웃 순서 정렬 알고리즘 개발<br>
-            • QA 데이터 자동 생성 알고리즘 개발 및 검수<br><br>
-            ※ Role: PDF 라벨링·레이아웃 검출·정렬 및 QA 생성 파트를 직접 구현
+            • QA 데이터 자동 생성 알고리즘 개발 및 검수<br>
+            ※ Role: PDF 라벨링·레이아웃 검출·정렬 및 QA 생성 파트를 직접 구현<br>
           </div>
 
       - layout: top-middle
@@ -163,8 +163,8 @@ content:
             • 사업 수행총괄<br>
             • 대표 결함 6종, 기타 결함 9종 데이터 인수 및 검증/평가 데이터 선별<br>
             • 대표 결함 6종 F1-score 0.90, 기타 결함 9종 F1-score 0.85 달성 (서울디지털재단 요구 성능 달성)<br>
-            • BoT-SORT 기반 객체 추적, EasyOCR + 후처리로 하수관 메타정보 추출 알고리즘 개발<br><br>
-            ※ Role: 데이터 선별·탐지/추적·OCR·API 연계까지 처리 파트를 구현
+            • BoT-SORT 기반 객체 추적, EasyOCR + 후처리로 하수관 메타정보 추출 알고리즘 개발<br>
+            ※ Role: 데이터 선별·탐지/추적·OCR·API 연계까지 처리 파트를 구현<br>
           </div>
 
       - layout: top-middle
@@ -182,8 +182,8 @@ content:
           </div>
           <div align="center" style="max-width:800px; margin:0 auto; text-align:left; font-size:18px; line-height:1.6;">
             • 배회, 침입, 마케팅 알고리즘 개발 (배회, 침입 알고리즘은 KISA 지능형 CCTV 성능 시험 인증 통과)<br>
-            • NVIDIA Jetson Embedded Platform 최적화 및 알고리즘별 코드 통합<br><br>
-            ※ Role: 배회/침입 모델 구현 및 엣지 실험과 인증 전 검증 파트 수행
+            • NVIDIA Jetson Embedded Platform 최적화 및 알고리즘별 코드 통합<br>
+            ※ Role: 배회/침입 모델 구현 및 엣지 실험과 인증 전 검증 파트 수행<br>
           </div>
 
       - layout: top-middle
@@ -204,8 +204,8 @@ content:
             • trimesh 기반 body_measurements 라이브러리 수정으로 자동 신체 치수 측정 알고리즘 개발<br>
             • 10명 대상 평균 오차율 7% (몸무게 8%, 목 13%, 가슴 4%, 배 6%, 팔 9%, 엉덩이 3%, 허벅지 5%)<br>
             • 국제의료기기병원설비 전시회 KIMES 2023 시연<br>
-            • ‘체형예측시스템 및 체형예측시스템의 동작 방법’ 특허 출원 (출원번호: 10-2023-0024467)<br><br>
-            ※ Role: 3D 복원 모델 및 치수 측정 로직 구현과 실험 수행
+            • ‘체형예측시스템 및 체형예측시스템의 동작 방법’ 특허 출원 (출원번호: 10-2023-0024467)<br>
+            ※ Role: 3D 복원 모델 및 치수 측정 로직 구현과 실험 수행<br>
           </div>
 
   - title: "More Projects"
@@ -227,8 +227,8 @@ content:
           <div align="center" style="max-width:800px; margin:0 auto; text-align:left; font-size:18px; line-height:1.6;">
             • 인형 라벨링 툴 개발<br>
             • Dinov2 + FAISS 기반 이미지 검색 알고리즘 데모 구현<br>
-            • Streamlit 기반 검색 서비스 UI 데모 개발<br><br>
-            ※ Role: 라벨링 툴·검색 알고리즘·데모 UI 구현 전체를 직접 개발
+            • Streamlit 기반 검색 서비스 UI 데모 개발<br>
+            ※ Role: 라벨링 툴·검색 알고리즘·데모 UI 구현 전체를 직접 개발<br>
           </div>
 
       - layout: top-middle
@@ -249,8 +249,8 @@ content:
             • 호출한 날씨와 사용자의 질문을 통합한 Prompt로 일정 추천 챗봇 구현<br>
             • FAISS 기반 문서 벡터화 및 문서 검색 서비스 개발<br>
             • 답변에 근거가 되는 내용을 그래프로 시각화하여 사용자가 답변의 신빙성을 검토할 수 있는 기능 구현<br>
-            • AI EXPO KOREA 2024 국제인공지능대전 시연<br><br>
-            ※ Role: 날씨 기반 일정추천 로직 및 데모 구현, 문서검색 모듈 통합 수행
+            • AI EXPO KOREA 2024 국제인공지능대전 시연<br>
+            ※ Role: 날씨 기반 일정추천 로직 및 데모 구현, 문서검색 모듈 통합 수행<br>
           </div>
 
       - layout: top-middle
@@ -268,8 +268,8 @@ content:
           </div>
           <div align="center" style="max-width:800px; margin:0 auto; text-align:left; font-size:18px; line-height:1.6;">
             • Active Learning을 활용한 화상 Segmentation 데이터셋 구축<br>
-            • SAM 기반 화상 Segmentation 모델 개발<br><br>
-            ※ Role: 데이터 구축 및 화상 Segmentation 모델 구현 수행
+            • SAM 기반 화상 Segmentation 모델 개발<br>
+            ※ Role: 데이터 구축 및 화상 Segmentation 모델 구현 수행<br>
           </div>
 
       - layout: top-middle
@@ -288,8 +288,8 @@ content:
           <div align="center" style="max-width:800px; margin:0 auto; text-align:left; font-size:18px; line-height:1.6;">
             • 이미지와 LiDAR 기반 사람 인식 모델 및 API 개발<br>
             • Whisper 모델 Prompt 최적화 및 대화 감지 알고리즘 구현<br>
-            • VITS2 + MB-iSTFT 기반 TTS 모델 개발<br><br>
-            ※ Role: 사람인식·STT API 구현 및 TTS 실험 공동 수행
+            • VITS2 + MB-iSTFT 기반 TTS 모델 개발<br>
+            ※ Role: 사람인식·STT API 구현 및 TTS 실험 공동 수행<br>
           </div>
 
       - layout: top-middle
@@ -302,8 +302,8 @@ content:
           <div align="center" style="max-width:800px; margin:0 auto; text-align:left; font-size:18px; line-height:1.6;">
             • SAM 기반 전립선 초음파 Segmentation 모델 개발<br>
             • 초음파영상 분류 모델 개발 (ResNet, EfficientNet, ViT)<br>
-            • CRF (Case Report Form) 및 영상 데이터 결합 멀티모달 모델 구현, 베이스라인 코드 작성 후 인수<br><br>
-            ※ Role: Segmentation/분류 및 멀티모달 베이스라인 모델 구현 후 인계
+            • CRF (Case Report Form) 및 영상 데이터 결합 멀티모달 모델 구현, 베이스라인 코드 작성 후 인수<br>
+            ※ Role: Segmentation/분류 및 멀티모달 베이스라인 모델 구현 후 인계<br>
           </div>
 
       - layout: top-middle
@@ -315,8 +315,8 @@ content:
           </div>
           <div align="center" style="max-width:800px; margin:0 auto; text-align:left; font-size:18px; line-height:1.6;">
             • 이미지 기반 분석모델 운영 현황 검증 기존 보고서 대비 성능 비교<br>
-            • 문제점 분석 및 개선 방안 제안 보고서 작성<br><br>
-            ※ Role: 기존 모델 성능 검증 및 개선안 보고서 작성 수행
+            • 문제점 분석 및 개선 방안 제안 보고서 작성<br>
+            ※ Role: 기존 모델 성능 검증 및 개선안 보고서 작성 수행<br>
           </div>
 
       - layout: top-middle
@@ -337,8 +337,8 @@ content:
             • 기존 34종 감정을 7종으로 재구성한 데이터셋 구축<br>
             • Wav2Vec2 기반 음성 감정 모델 개발<br>
             • MFB (Multi-modal Factorized Bilinear Pooling) 기반 last fusion 멀티모달 알고리즘 구현<br>
-            • API 개발 및 플랫폼 배포로 사용자 감정 인식 기능 개선<br><br>
-            ※ Role: 음성 데이터 구축·모델 학습 및 멀티모달 통합 모델 구현 수행
+            • API 개발 및 플랫폼 배포로 사용자 감정 인식 기능 개선<br>
+            ※ Role: 음성 데이터 구축·모델 학습 및 멀티모달 통합 모델 구현 수행<br>
           </div>
 
       - layout: top-middle
@@ -352,8 +352,8 @@ content:
             • 데이터 품질 검증<br>
             • Swin Transformer 기반 분류 모델 성능 검증<br>
             • 최종 F1-score 90.37% (1도 0.92, 표재 2도 0.84, 심재 2도 0.87, 3도 0.92, 정상 0.98)<br>
-            • AI 상처진단보조 소프트웨어 의료기기 Skinex 탑재<br><br>
-            ※ Role: 데이터 검증 및 분류 모델 실험 보조 수행
+            • AI 상처진단보조 소프트웨어 의료기기 Skinex 탑재<br>
+            ※ Role: 데이터 검증 및 분류 모델 실험 보조 수행<br>
           </div>
 
   - title: "Awards"
