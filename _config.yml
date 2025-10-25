@@ -124,12 +124,12 @@ content:
     content:
       - layout: top-middle
         title: "제품 매뉴얼을 이용한 Device AI QA 자동화 시스템 구축"
-        link: "https://github.com/fly4hyun/bixby-dqa-automation"
-        link_text: "github.com/fly4hyun/bixby-dqa-automation"
+        link: "https://github.com/fly4hyun/document-dqa-automation"
+        link_text: "github.com/fly4hyun/document-dqa-automation"
         additional_links:
           - title: "GitHub"
             icon: "fab fa-github"
-            url: "https://github.com/fly4hyun/bixby-dqa-automation"
+            url: "https://github.com/fly4hyun/document-dqa-automation"
         quote: "2024.12-2025.04"
         description: |
           <div align="center" style="max-width:800px; margin:0 auto; text-align:center; font-size:18px; line-height:1.6;">
