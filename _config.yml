@@ -290,9 +290,9 @@ content:
             전립선 초음파 기반 전립선증식증 진단 보조 SW 개발<br>
           </div>
           <div align="center" style="max-width:800px; margin:0 auto; text-align:left; font-size:18px; line-height:1.6;">
-            - SAM 기반 전립선 초음파 Segmentation 모델 개발<br>
-            - 초음파영상 분류 모델 개발 (ResNet, EfficientNet, ViT)<br>
-            - CRF (Case Report Form) 및 영상 데이터 결합 멀티모달 모델 구현, 베이스라인 코드 작성 후 인수<br><br>
+            • SAM 기반 전립선 초음파 Segmentation 모델 개발<br>
+            • 초음파영상 분류 모델 개발 (ResNet, EfficientNet, ViT)<br>
+            • CRF (Case Report Form) 및 영상 데이터 결합 멀티모달 모델 구현, 베이스라인 코드 작성 후 인수<br><br>
           </div>
 
       - layout: top-middle
