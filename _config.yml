@@ -132,8 +132,10 @@ content:
             url: "https://github.com/fly4hyun/document-dqa-automation"
         quote: "2024.12-2025.04"
         description: |
-          <div align="center" style="max-width:1000px; margin:0 auto; text-align:left; font-size:18px; line-height:1.6;">
+          <div align="center" style="max-width:1000px; margin:0 auto; text-align:center; font-size:20px; line-height:1.6;">
             삼성전자 설명서 PDF에서 QA 데이터를 자동 생성 및 정리하여 빅스비 DQA DB를 구축하는 자동화 프로세스 개발<br>
+          </div>
+          <div align="center" style="max-width:800px; margin:0 auto; text-align:left; font-size:18px; line-height:1.6;">
             - PDF 레이아웃 데이터 생성 및 검수를 위한 라벨링 툴 개발<br>
             - YOLOv12x 기반 PDF 레이아웃 검출 모델 학습<br>
             - 12개 레이아웃 클래스 (대제목, 섹션 박스, 중제목, 소제목, 내용, 이미지/표 박스, 이미지, 표, 아이콘_내용, 페이지 번호, 아이콘, 목차) 정의<br>
@@ -171,8 +173,10 @@ content:
             url: "https://github.com/fly4hyun/intelligent-cctv"
         quote: "2024.04-2024.08"
         description: |
-          <div align="center" style="max-width:800px; margin:0 auto; text-align:center; font-size:18px; line-height:1.6;">
+          <div align="center" style="max-width:1000px; margin:0 auto; text-align:center; font-size:20px; line-height:1.6;">
             자사 제품 개발을 위한 범죄 예방 지능형 CCTV 알고리즘 개발 및 엣지 디바이스 탑재<br>
+          </div>
+          <div align="center" style="max-width:800px; margin:0 auto; text-align:left; font-size:18px; line-height:1.6;">
             - 배회, 침입, 마케팅 알고리즘 개발 (배회, 침입 알고리즘은 KISA 지능형 CCTV 성능 시험 인증 통과)<br>
             - NVIDIA Jetson Embedded Platform 최적화 및 알고리즘별 코드 통합<br><br>
           </div>
@@ -187,8 +191,10 @@ content:
             url: "https://github.com/fly4hyun/3d-body-reconstruction"
         quote: "2022.09-2023.03"
         description: |
-          <div align="center" style="max-width:800px; margin:0 auto; text-align:center; font-size:18px; line-height:1.6;">
+          <div align="center" style="max-width:1000px; margin:0 auto; text-align:center; font-size:20px; line-height:1.6;">
             단일 사진 또는 4방향 사진만으로 3D 체형을 복원하고 부위별 치수를 측정하는 알고리즘 개발<br>
+          </div>
+          <div align="center" style="max-width:800px; margin:0 auto; text-align:left; font-size:18px; line-height:1.6;">
             - SMPL 기반 LVD (Learned Vertex Descent) 모델과 ICON (Implicit Clothed humans Obtained from Normals) 모델을 결합한 3D 체형 복원 모델 개발<br>
             - trimesh 기반 body_measurements 라이브러리 수정으로 자동 신체 치수 측정 알고리즘 개발<br>
             - 10명 대상 평균 오차율 7% (몸무게 8%, 목 13%, 가슴 4%, 배 6%, 팔 9%, 엉덩이 3%, 허벅지 5%)<br>
@@ -209,8 +215,10 @@ content:
             url: "https://github.com/fly4hyun/doll-image-search"
         quote: "2024.03-2025.05"
         description: |
-          <div align="center" style="max-width:800px; margin:0 auto; text-align:center; font-size:18px; line-height:1.6;">
+          <div align="center" style="max-width:1000px; margin:0 auto; text-align:center; font-size:20px; line-height:1.6;">
             인형 디자인 및 도안 제작 편의성을 위한 이미지 검색 시스템 개발 및 인형 DB 구축<br>
+          </div>
+          <div align="center" style="max-width:800px; margin:0 auto; text-align:left; font-size:18px; line-height:1.6;">
             - 인형 라벨링 툴 개발<br>
             - Dinov2 + FAISS 기반 이미지 검색 알고리즘 데모 구현<br>
             - Streamlit 기반 검색 서비스 UI 데모 개발<br><br>
@@ -226,8 +234,10 @@ content:
             url: "https://github.com/fly4hyun/weather-travel-bot"
         quote: "2024.02-2024.05"
         description: |
-          <div align="center" style="max-width:800px; margin:0 auto; text-align:center; font-size:18px; line-height:1.6;">
+          <div align="center" style="max-width:1000px; margin:0 auto; text-align:center; font-size:20px; line-height:1.6;">
             실시간 날씨 기반 여행 일정 추천 챗봇과 할루시네이션 저감형 문서 검색 서비스 개발<br>
+          </div>
+          <div align="center" style="max-width:800px; margin:0 auto; text-align:left; font-size:18px; line-height:1.6;">
             - 질문에서 기간 및 위치 추출 후 기상청 API 호출 알고리즘 개발<br>
             - 호출한 날씨와 사용자의 질문을 통합한 Prompt로 일정 추천 챗봇 구현<br>
             - FAISS 기반 문서 벡터화 및 문서 검색 서비스 개발<br>
@@ -245,8 +255,10 @@ content:
             url: "https://github.com/fly4hyun/burn-segmentation"
         quote: "2023.08-2023.12"
         description: |
-          <div align="center" style="max-width:800px; margin:0 auto; text-align:center; font-size:18px; line-height:1.6;">
+          <div align="center" style="max-width:1000px; margin:0 auto; text-align:center; font-size:20px; line-height:1.6;">
             화상 심도 분석을 보조하는 Segmentation 모델 개발<br>
+          </div>
+          <div align="center" style="max-width:800px; margin:0 auto; text-align:left; font-size:18px; line-height:1.6;">
             - Active Learning을 활용한 화상 Segmentation 데이터셋 구축<br>
             - SAM 기반 화상 Segmentation 모델 개발<br><br>
           </div>
@@ -261,8 +273,10 @@ content:
             url: "https://github.com/fly4hyun/digital-human"
         quote: "2023.08-2023.12"
         description: |
-          <div align="center" style="max-width:800px; margin:0 auto; text-align:center; font-size:18px; line-height:1.6;">
+          <div align="center" style="max-width:1000px; margin:0 auto; text-align:center; font-size:20px; line-height:1.6;">
             역사적 인물을 디지털로 복원하여 기념관 방문객과 상호작용 가능한 AI 디지털 휴먼 플랫폼 개발<br>
+          </div>
+          <div align="center" style="max-width:800px; margin:0 auto; text-align:left; font-size:18px; line-height:1.6;">
             - 이미지와 LiDAR 기반 사람 인식 모델 및 API 개발<br>
             - Whisper 모델 Prompt 최적화 및 대화 감지 알고리즘 구현<br>
             - VITS2 + MB-iSTFT 기반 TTS 모델 개발<br><br>
@@ -272,8 +286,10 @@ content:
         title: "AI 정밀의료솔루션 (닥터앤서 2.0) 개발"
         quote: "2023.08-2023.09"
         description: |
-          <div align="center" style="max-width:800px; margin:0 auto; text-align:center; font-size:18px; line-height:1.6;">
+          <div align="center" style="max-width:1000px; margin:0 auto; text-align:center; font-size:20px; line-height:1.6;">
             전립선 초음파 기반 전립선증식증 진단 보조 SW 개발<br>
+          </div>
+          <div align="center" style="max-width:800px; margin:0 auto; text-align:left; font-size:18px; line-height:1.6;">
             - SAM 기반 전립선 초음파 Segmentation 모델 개발<br>
             - 초음파영상 분류 모델 개발 (ResNet, EfficientNet, ViT)<br>
             - CRF (Case Report Form) 및 영상 데이터 결합 멀티모달 모델 구현, 베이스라인 코드 작성 후 인수<br><br>
@@ -283,8 +299,10 @@ content:
         title: "통일부 2023 북한정보 인공지능빅데이터 분석모델 운영 및 유지보수"
         quote: "2023.07-2023.07"
         description: |
-          <div align="center" style="max-width:800px; margin:0 auto; text-align:center; font-size:18px; line-height:1.6;">
+          <div align="center" style="max-width:1000px; margin:0 auto; text-align:center; font-size:20px; line-height:1.6;">
             통일부 북한정보 분석모델의 성능 평가 및 개선 방향 제시<br>
+          </div>
+          <div align="center" style="max-width:800px; margin:0 auto; text-align:left; font-size:18px; line-height:1.6;">
             - 이미지 기반 분석모델 운영 현황 검증 기존 보고서 대비 성능 비교<br>
             - 문제점 분석 및 개선 방안 제안 보고서 작성<br><br>
           </div>
@@ -299,8 +317,10 @@ content:
             url: "https://github.com/fly4hyun/multimodal-emotion"
         quote: "2023.01-2023.06"
         description: |
-          <div align="center" style="max-width:800px; margin:0 auto; text-align:center; font-size:18px; line-height:1.6;">
+          <div align="center" style="max-width:1000px; margin:0 auto; text-align:center; font-size:20px; line-height:1.6;">
             자사 멀티모달 감정 분류 모델 성능 개선 및 플랫폼 서비스 배포<br>
+          </div>
+          <div align="center" style="max-width:800px; margin:0 auto; text-align:left; font-size:18px; line-height:1.6;">
             - 자사 감정 데이터 및 AIHub 음성 데이터 6종 추가 수집 및 전처리<br>
             - 기존 34종 감정을 7종으로 재구성한 데이터셋 구축<br>
             - Wav2Vec2 기반 음성 감정 모델 개발<br>
@@ -312,8 +332,10 @@ content:
         title: "이미지 기반 화상 심도 측정 모델 개발"
         quote: "2022.08-2023.03"
         description: |
-          <div align="center" style="max-width:800px; margin:0 auto; text-align:center; font-size:18px; line-height:1.6;">
+          <div align="center" style="max-width:1000px; margin:0 auto; text-align:center; font-size:20px; line-height:1.6;">
             화상 환부 이미지를 기반으로 심도 (정상 ~ 3도) 분류 모델 연구 (연구 보조)<br>
+          </div>
+          <div align="center" style="max-width:800px; margin:0 auto; text-align:left; font-size:18px; line-height:1.6;">
             - 데이터 품질 검증<br>
             - Swin Transformer 기반 분류 모델 성능 검증<br>
             - 최종 F1-score 90.37% (1도 0.92, 표재 2도 0.84, 심재 2도 0.87, 3도 0.92, 정상 0.98)<br>
